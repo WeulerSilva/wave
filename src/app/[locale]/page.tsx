@@ -178,7 +178,7 @@ export default function HomePage() {
           </div>
           <div className='w-36 h-12 bg-white'></div>
         </div>
-        <span className='bg-bluelight w-screen flex justify-center items-center text-[12px] text-white'>2024 Waveseg by South Entertainment. {t("desc")}</span>
+        <span className='bg-bluelight w-screen flex justify-center items-center text-[12px] text-white'>{t("desc")}</span>
       </footer>
     </>
   );
