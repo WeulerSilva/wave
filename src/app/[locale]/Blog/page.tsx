@@ -1,4 +1,4 @@
-export default function pages() {
+export default function Pages() {
     return (
         <div>Blogs</div>
     )

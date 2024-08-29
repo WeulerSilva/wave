@@ -12,11 +12,11 @@ export default function LanguageMobile() {
     const currentLocale = pathName.split('/')[1];
 
     return (
-        <div className='absolute right-5 top-0 space-x-2 flex md:hidden'>
+        <div className='absolute right-5 top-1 space-x-2 flex md:hidden'>
             <Link href="/" locale='pt'>
                 <Image
                     alt="pt"
-                    src={"/images/pt.png"}
+                    src={"/images/pt.webp"}
                     width={22}
                     height={22}
                     className={`rounded-md ${currentLocale === 'pt' ? 'border border-white' : ''} hover:border border-white`}
@@ -25,7 +25,7 @@ export default function LanguageMobile() {
             <Link href="/" locale='en'>
                 <Image
                     alt="en"
-                    src={"/images/en.png"}
+                    src={"/images/en.webp"}
                     width={22}
                     height={22}
                     className={`rounded-md ${currentLocale === 'en' ? 'border border-white' : ''} hover:border border-white`}
@@ -34,7 +34,7 @@ export default function LanguageMobile() {
             <Link href="/" locale='es'>
                 <Image
                     alt="es"
-                    src={"/images/es.png"}
+                    src={"/images/es.webp"}
                     width={22}
                     height={22}
                     className={`rounded-md ${currentLocale === 'es' ? 'border border-white' : ''} hover:border border-white`}

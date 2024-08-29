@@ -70,7 +70,7 @@ export default function Header() {
 
             <div className={`w-[85vw] ${MenuMobileOpen ? 'h-[400px]' : 'h-0'} z-20 bg-bluelight absolute top-24 transition-all duration-500 ease-in-out overflow-hidden flex justify-center items-center`}>
                 <nav>
-                    <ul className="w-full flex flex-col justify-center items-center space-y-4 font-semibold text-md font-[MontSerrat]  uppercase">
+                    <ul className="w-full flex flex-col justify-center items-center space-y-4 font-semibold text-md font-conthrax  uppercase">
                     {menuItems.map((item) => {
                         // Verifica se o item é a página atual
                         const isActive = 
