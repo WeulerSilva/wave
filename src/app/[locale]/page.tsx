@@ -166,20 +166,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className='w-screen flex justify-between items-center flex-col bg-bluedark pt-6'>
-        <div className='w-[95%] space-x-3 flex justify-between items-center pb-6 xl:w-[65%]'>
-          <div className='w-36 h-12 bg-white'></div>
-          <div className='flex justify-between items-center flex-col space-x-2 md:space-x-4 md:flex-row'>
-            <div className='flex justify-between items-center space-x-1 md:space-x-3'>
-              <div className='w-8 h-8 rounded-full bg-white'></div>
-              <div className='w-8 h-8 rounded-full bg-white'></div>
-            </div>
-            <span className='text-white'>email@generico</span>
-          </div>
-          <div className='w-36 h-12 bg-white'></div>
-        </div>
-        <span className='bg-bluelight w-screen flex justify-center items-center text-[12px] text-white'>{t("desc")}</span>
-      </footer>
     </>
   );
 }

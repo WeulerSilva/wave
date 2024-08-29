@@ -25,6 +25,7 @@ const config: Config = {
         "soon-2": "url('/images/soon-2.jpg')",
         "soon-3": "url('/images/soon-3.jpg')",
         "mar-360": "url('/images/mar-360.png')",
+        "seg-logo": "url('/images/seg-logo.webp')",
       },
       colors: {
         "bluedark" : "#002D3A",
