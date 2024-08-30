@@ -4,21 +4,21 @@
 
 @font-face {
     font-family: 'Beyonders';
-    src: url('/public/fonts/Beyonders.ttf') format('truetype');
+    src: url('/fonts/Beyonders.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Conthrax';
-    src: url('/public/fonts/conthrax-sb.ttf') format('truetype');
+    src: url('/fonts/conthrax-sb.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Nexa';
-    src: url('/public/fonts/nexa-light.otf') format('truetype');
+    src: url('/fonts/nexa-light.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }

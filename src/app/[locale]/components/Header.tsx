@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import { useRouter, usePathname } from "@/navigation";
 import LanguageToggle from "./LanguageToggle";
 import { MenuMobile } from "./MenuMobile";
@@ -39,7 +38,6 @@ export default function Header() {
                             </div>
 
             <MenuMobile onClick={handleMenuOpen}/>
-            <LanguageMobile/>
 
             <div className="hidden md:flex md:relative">
                 <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[9px] lg:space-x-2  xl:space-x-4 ">
@@ -69,7 +67,7 @@ export default function Header() {
             </div>
 
             <div className={`w-[85vw] ${MenuMobileOpen ? 'h-[400px]' : 'h-0'} z-20 bg-bluelight absolute top-24 transition-all duration-500 ease-in-out overflow-hidden flex justify-center items-center`}>
-                <nav>
+                <nav className="flex flex-col">
                     <ul className="w-full flex flex-col justify-center items-center space-y-4 font-semibold text-md font-conthrax  uppercase">
                     {menuItems.map((item) => {
                         // Verifica se o item é a página atual
@@ -93,6 +91,7 @@ export default function Header() {
                         );
                     })}
                 </ul>
+                <LanguageMobile/>
                 </nav>
             </div>
         </header>
