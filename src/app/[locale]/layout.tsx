@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import Header from './components/Header';
 import "./globals.css";
 import { Footer } from './components/Footer';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default async function LocaleLayout({
   children,
@@ -16,6 +17,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <SpeedInsights/>
       <body className='overflow-x-hidden'>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
