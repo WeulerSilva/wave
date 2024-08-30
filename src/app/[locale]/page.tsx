@@ -72,13 +72,13 @@ export default function HomePage() {
             {t('midia-p')}
           </p>
           <div className='flex flex-wrap justify-center gap-4 w-full mt-8 mb-8 pr-6 md:pr-0 md:flex md:justify-between'>
-            <MediaMentionsLogos />
-            <MediaMentionsLogos />
-            <MediaMentionsLogos />
-            <MediaMentionsLogos />
-            <MediaMentionsLogos />
-            <MediaMentionsLogos />
-            <MediaMentionsLogos />
+            <MediaMentionsLogos style='bg-media-link' link='https://wavepoolmag.com/new-wave-pool-tech-concept-discovered-in-south-america/'/>
+            <MediaMentionsLogos style='bg-stab-link' link='https://stabmag.com/features/wave-pool-game-changers/'/>
+            <MediaMentionsLogos style='bg-media-link' link='https://wavepoolmag.com/waveseg-partners-with-the-brazilian-surf-park-association/'/>
+            <MediaMentionsLogos style='bg-waves-link' link='https://www.waves.com.br/ondas-artificiais/waveseg-tecnologia-nacional-para-o-surfe/'/>
+            <MediaMentionsLogos style='bg-media-link' link='https://wavepoolmag.com/how-the-waveseg-wave-generation-system-works/'/>
+            <MediaMentionsLogos style='bg-youtube-link' link='https://www.youtube.com/watch?v=FaA_F7-L5Zs'/>
+            <MediaMentionsLogos style='bg-media-link' link='https://wavepoolmag.com/update-on-brazils-wave-pool-scene/'/>
           </div>
         </div>
       </section>
