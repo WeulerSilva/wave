@@ -40,7 +40,7 @@ export default function Header() {
             <MenuMobile onClick={handleMenuOpen}/>
 
             <div className="hidden md:flex md:relative">
-                <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[8.5px] lg:space-x-4  xl:space-x-10">
+                <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[8.5px] lg:space-x-4 2xl:space-x-14">
                     {menuItems.map((item) => {
                         // Verifica se o item é a página atual
                         const isActive = 

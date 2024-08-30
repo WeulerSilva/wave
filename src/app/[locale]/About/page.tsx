@@ -19,7 +19,7 @@ export default function Pages() {
                 <BlueDiv completBlue firstText={t("h1")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:pl-6 md:space-x-10 md:w-[85%] md:flex-row xl:w-[65%]'>
+                                text-justify md:pl-0 md:space-x-10 md:w-[85%] md:flex-row xl:w-[65%]'>
                     <div className="w-full mb-7 md:mb-0 md:w-[50%]">
                         <p className="mb-7">{t("p1")}</p>
                         <p>{t("p2")}</p>
