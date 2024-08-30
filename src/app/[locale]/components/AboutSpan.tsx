@@ -6,7 +6,7 @@ import { useRouter, usePathname } from "next/navigation";
 type Props = {
     style?: string;
     text?: string;
-    link: string;
+    link?: string;
 }
 
 export const AboutSpan = ({ style, text, link = '/' }: Props) => {
