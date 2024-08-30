@@ -9,13 +9,13 @@ type Props = {
     link: string;
 }
 
-export const AboutSpan = ({ style, text, link }: Props) => {
+export const AboutSpan = ({ style, text, link = '/' }: Props) => {
     const t = useTranslations('HomePage');
     const router = useRouter();
-    const pathname = usePathname();
 
     const handleClick = () => {
-        const locale = pathname.split('/')[1]; // Obtém o primeiro segmento da URL (o idioma)
+        const currentPath = window.location.pathname;
+        const locale = currentPath.split('/')[1];
         router.push(`/${locale}${link}`);
     };
 
