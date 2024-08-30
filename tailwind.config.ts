@@ -26,6 +26,7 @@ const config: Config = {
         "soon-3": "url('/images/soon-3.jpg')",
         "mar-360": "url('/images/mar-360.png')",
         "seg-logo": "url('/images/seg-logo.webp')",
+        "prancha-mar": "url('/images/prancha-mar.webp')",
         "media-link": "url('https://wavepoolmag.com/wp-content/themes/yoo_master2_wp/images/menu-icon.png')",
         "youtube-link": "url('https://cdn.pixabay.com/photo/2021/06/25/04/20/youtube-6362801_640.png')",
         "stab-link": "url('https://stabmag.b-cdn.net/wp-content/themes/stab-mag-web/assets/logo-black.png')",
