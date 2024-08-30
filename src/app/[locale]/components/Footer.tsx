@@ -25,7 +25,7 @@ export const Footer = () => {
                 </div>
                 <div className='w-36 h-12 bg-seg-logo bg-contain bg-no-repeat bg-center cursor-pointer'></div>
             </div>
-            <span className='bg-bluelight w-screen flex justify-center items-center text-[12px] text-white'>{t("desc")}</span>
+            <span className='bg-bluelight text-center w-screen flex justify-center items-center text-[12px] text-white'>{t("desc")}</span>
         </footer>
     );
 };
