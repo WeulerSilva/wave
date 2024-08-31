@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { BlueDiv } from "../components/BlueDiv";
 import { BlueDivCenter } from "../components/BlueDivCenter";
+import { CircleDiv } from "../components/CircleDiv";
 
 export default function Pages() {
     const t = useTranslations('about');
@@ -36,11 +37,15 @@ export default function Pages() {
             <div className="w-full mt-10 flex justify-center flex-col items-center">
                 <BlueDivCenter completBlue firstText={t("h2")} aboutStyle="hidden" />
 
-                <div className='w-full h-full flex justify-center items-center'>
-                    <div className="w-full h-[300px] bg-gray-50">
-
+                <div className='w-full h-full flex justify-center items-center bg-gray-50'>
+                    <div className="w-full h-full grid grid-cols-2 gap-4 justify-items-center items-center pt-8 lg:pt-0 lg:h-[300px] lg:flex md:w-[90%] xl:w-[70%]">
+                        <CircleDiv firstText="circle-1" style="bg-about-1" />
+                        <CircleDiv firstText="circle-2" style="bg-about-2" />
+                        <CircleDiv firstText="circle-3" style="bg-about-3" />
+                        <CircleDiv firstText="circle-4" style="bg-about-4" />
                     </div>
                 </div>
+
             </div>
 
         </section>

@@ -22,13 +22,13 @@ export const Footer = () => {
                             href="https://www.instagram.com/wave.seg/"
                             target="_blank"
                             title="Instagram">
-                            <FaInstagram className="w-5 h-5 text-black" />
+                            <FaInstagram className="w-4 h-4 text-black" />
                         </a>
                         <a className='w-7 h-7 rounded-full bg-white flex justify-center items-center cursor-pointer'
                             href="https://www.linkedin.com/showcase/waveseg-oficial/?originalSubdomain=br"
                             target="_blank"
                             title="Linkedin">
-                            <FaLinkedinIn className="w-5 h-5 text-black" />
+                            <FaLinkedinIn className="w-4 h-4 text-black" />
                         </a>
                     </div>
                     <a className='text-white font-conthrax text-[10px] flex justify-center items-center cursor-pointer mt-4 pb-4 md:pb-0 md:mt-0 xl:pl-8'

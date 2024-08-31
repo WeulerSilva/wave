@@ -67,6 +67,20 @@
         "p2": "Nuestro objetivo siempre fue más allá de simplemente ofrecer una nueva forma de entretenimiento; determinados a recrear la sensación autentica del surf en el mar, identificamos en el aire comprimido la solución dinámica que buscábamos. Entre los años 2014 y 2021, nos dedicamos al desarrollo de nuestro propio sistema de propulsión. Ese período fue marcado por intensa investigación y desarrollo, que incluyó la construcción de prototipos, una parte de la máquina en escala real y la obtención de nuestra primera patente en el INPI de Argentina. A pesar del éxito y dinamismo brindados por este sistema, enfrentamos desafíos relacionados a los altos costos de implantación, mantenimiento y consumo energético; estos obstáculos nos llevaron a buscar soluciones más sustentables e innovadoras.",
         "p3": "Enfocados en innovación y en la reducción del impacto ambiental, desarrollamos un sistema generador de olas para surf verdaderamente ecológico. Nuestro objetivo es minimizar la infraestructura y la maquinaria, utilizando un método de filtraje del agua 100% natural, brindando un costo de implantación y operación altamente competitivo.",
         "p4": "En 2023, alcanzamos un marco significativo al registrar nuestra primera patente en el INPI de Brasil con nuestra tecnología Waveseg®.",
-        "p5": "Brindamos soluciones tecnológicas y de ingeniería personalizadas, desde la concepción hasta la implantación eficaz y soporte continuo, garantizando la viabilidad y sustentabilidad de cada proyecto. Nuestro compromiso con la responsabilidad social y ambiental es inquebrantable, promoviendo prácticas que aseguran un equilibrio consciente y transparente entre desarrollo tecnológico y preservación ambiental. "
+        "p5": "Brindamos soluciones tecnológicas y de ingeniería personalizadas, desde la concepción hasta la implantación eficaz y soporte continuo, garantizando la viabilidad y sustentabilidad de cada proyecto. Nuestro compromiso con la responsabilidad social y ambiental es inquebrantable, promoviendo prácticas que aseguran un equilibrio consciente y transparente entre desarrollo tecnológico y preservación ambiental.",
+        "h2": "nuestro diferencial",
+        "circle-1": "Implementación rápida",
+        "circle-2": "Tecnología de vanguardia",
+        "circle-3": "Optimización de costos",
+        "circle-4": "Sostenibilidad"
+    },
+    "tech": {
+        "h1": "NUESTRA TECNOLOGÍA SE DESTACA POR OFRECER UN CAPEX Y OPEX ALTAMENTE COMPETITIVOS",
+        "li-1": "Sistema de propulsión de olas altamente eficiente",
+        "li-2": "Reducción significativa de maquinaria e integración con la naturaleza",
+        "li-3": "Selección cuidadosa de materiales, minimizando el impacto ambiental",
+        "li-4": "Tecnología 100% brasileña y patentada",
+        "li-5": "Ingeniería digital de última generación, garantizando que nuestros sistemas sean confiables y eficientes",
+        "img-text": "automatización"
     }
 }

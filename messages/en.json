@@ -68,6 +68,19 @@
         "p3": "Focused on innovation and reducing environmental impact, we developed a truly eco-friendly surf wave generating system. Our goal is to minimize infrastructure and machinery, using a 100% natural water filtration method, providing a highly competitive implementation and operation cost.",
         "p4": "In 2023, we reached a significant milestone by registering our first patent at the INPI of Brazil with our Waveseg® technology.",
         "p5": "We provide customized technological and engineering solutions, from conception to effective implementation and ongoing support, ensuring the viability and sustainability of each project. Our commitment to social and environmental responsibility is unwavering, promoting practices that ensure a conscious and transparent balance between technological development and environmental preservation.",
-        "h2": "our differential"
+        "h2": "our differential",
+        "circle-1": "Quick implementation",
+        "circle-2": "Cutting-edge technology",
+        "circle-3": "Cost optimization",
+        "circle-4": "Sustainability"
+    },
+    "tech": {
+        "h1": "OUR TECHNOLOGY STANDS OUT FOR OFFERING HIGHLY COMPETITIVE CAPEX AND OPEX",
+        "li-1": "Highly efficient wave propulsion system",
+        "li-2": "Significant reduction in machinery and integration with nature",
+        "li-3": "Careful selection of materials, minimizing environmental impact",
+        "li-4": "100% Brazilian and patented technology",
+        "li-5": "State-of-the-art digital engineering, ensuring that our systems are reliable and efficient",
+        "img-text": "automation"
     }
 }
