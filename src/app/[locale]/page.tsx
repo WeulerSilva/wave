@@ -2,7 +2,6 @@ import { useTranslations } from 'next-intl';
 import { MediaMentionsLogos } from './components/MediaMentionsLogos';
 import { AboutSpan } from './components/AboutSpan';
 import { BlueDiv } from './components/BlueDiv';
-import Image from 'next/image';
 import { BlogDiv } from './components/BlogDiv';
 
 
@@ -30,7 +29,7 @@ export default function HomePage() {
 
             <div className='w-full h-full flex justify-center items-start pt-8 pl-20 pr-8 md:pl-0 md:pb-8 md:pt-8 md:pr-8 
                   md:items-start md:w-[50%] lg:items-end lg:pt-0 xl:pr-0'>
-              <p className='text-md text-[#05090a] font-semibold text-right md:text-bluedark md:text-left  md:text-xl xl:px-14'>
+              <p className='text-md text-[#05090a] font-semibold text-right md:text-bluedark md:text-left  md:text-lg xl:px-14'>
                 <span className='font-conthrax leading-none'>{t('image-p')}</span>
               </p>
             </div>
@@ -47,7 +46,7 @@ export default function HomePage() {
               <h6 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>
                 {t('about')}
               </h6>
-              <AboutSpan link='' style='bg-bluedark mr-6 text-white' />
+              <AboutSpan link='/About' style='bg-bluedark mr-6 text-white' />
             </div>
             <p className='mt-10 px-6 text-bluedark text-justify font-nexa md:px-0 md:mt-6'>
               {t('video-p')}
@@ -92,19 +91,19 @@ export default function HomePage() {
       <section className='w-screen bg-bluedark flex justify-center'>
         <div className='w-[70%] flex flex-col justify-center items-center py-16 lg:flex-row lg:justify-between'>
           <div className='flex justify-start items-center text-center flex-col h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[25%]'>
-            <AboutSpan link='' style='bg-bluelight text-bluedark' />
+            <AboutSpan link='/Technology' style='bg-bluelight text-bluedark' />
             <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{h('Technology')}</h6>
             <p className='text-gray-400 font-nexa'>{t('more-one')}</p>
           </div>
 
           <div className='flex justify-start items-center flex-col text-center h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[18%]'>
-            <AboutSpan link='' style='bg-bluelight text-bluedark' />
+            <AboutSpan link='/Products' style='bg-bluelight text-bluedark' />
             <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{t('products')}</h6>
             <p className='text-gray-400 font-nexa'>WS-1.64 - 64 {t('cameras')}<br />WS-1.32 - 32 {t('cameras')}</p>
           </div>
 
           <div className='flex justify-start items-center flex-col text-center h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[25%]'>
-            <AboutSpan link='' style='bg-bluelight text-bluedark' />
+            <AboutSpan link='/Products' style='bg-bluelight text-bluedark' />
             <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{t('services')}</h6>
             <p className='text-gray-400 font-nexa'>{t('services-one')}<br />{t('services-two')}<br />{t('services-three')}</p>
           </div>
@@ -119,11 +118,11 @@ export default function HomePage() {
       </section>
 
       <section className='w-screen flex flex-col justify-center items-center'>
-        <BlueDiv textSize='text-[9px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1' />
+        <BlueDiv textSize='text-[9px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1' link='/Sustainability'/>
 
         <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[85%] md:h-[240px] md:flex-row xl:w-[65%]'>
           <div className='w-full md:w-[50%]'>
-            <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0'>
+            <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0 lg:pt-5'>
               {t("r-s-p")}
             </p>
           </div>
@@ -140,14 +139,17 @@ export default function HomePage() {
           <BlogDiv callText={t("blog-call")} goText={t("blog-go")} />
         </div>
 
-        <AboutSpan link='' text={t("blog-button")} style='bg-bluedark text-white p-1 mt-4 mb-6' />
+        <AboutSpan link='/Blog' text={t("blog-button")} style='bg-bluedark text-white p-1 mt-4 mb-6' />
       </section>
 
       <section className='w-screen flex flex-col justify-center items-center relative mt-4'>
         <div className='w-full h-[56px] bg-[linear-gradient(to_right,#36A9E1_60%,white_95%)]  flex justify-center items-center'>
           <div className='w-full flex justify-start items-center md:w-[85%] xl:w-[65%]'>
             <h4 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>{t("follow")}</h4>
-            <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='@wave.seg' />
+            <a href="https://www.instagram.com/wave.seg/" target='_blank'>
+              <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='@wave.seg' />
+            </a>
+
           </div>
         </div>
 
@@ -166,7 +168,7 @@ export default function HomePage() {
             <h5 className='uppercase text-sm text-center font-conthrax mt-2 text-bluelight lg:text-[15px] xl:text-[18px]'>
               {t("form-two")}
             </h5>
-            <AboutSpan link='' text={t("form-go")} style='bg-bluedark text-white my-6' />
+            <AboutSpan link='/Contact' text={t("form-go")} style='bg-bluedark text-white my-6' />
           </div>
         </div>
       </section>

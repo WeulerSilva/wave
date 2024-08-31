@@ -26,7 +26,7 @@ export default function Pages() {
             </div>
 
             <div className="w-full mt-10 flex justify-center flex-col items-center">
-                <BlueDiv completBlue firstText={t("h1")} aboutStyle='hidden' />
+                <BlueDiv completBlue firstText={t("h2")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
                                 text-justify md:pl-0 md:space-x-10 md:w-[85%] md:flex-row xl:w-[65%]'>
