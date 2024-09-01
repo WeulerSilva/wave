@@ -68,7 +68,7 @@ export default function Pages() {
                 <div className="w-full md:w-[50%]">
                     <p className="mb-7">{t("p6")}</p>
                     <p className="mb-7">{t('p7')}</p>
-                    <p className="mb-7">{t("p8")}</p>
+                    <p>{t("p8")}</p>
                 </div>
             </div>
 
