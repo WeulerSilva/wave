@@ -8,11 +8,15 @@ export default function Pages() {
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
             <div className='w-screen h-[350px] flex justify-center md:h-[264px]'>
-                <div className='w-full h-full flex justify-center items-start bg-mar-blog bg-cover bg-center md:flex-row md:bg-bottom md:w-[90%] xl:w-[70%]'>
+                <div className='w-full h-full relative flex justify-center items-start bg-mar-blog bg-cover bg-center md:flex-row md:bg-bottom md:w-[90%] xl:w-[70%]'>
                     <div className="w-full h-full flex justify-center items-center md:justify-start">
                         <h1 className="font-beyonders text-white text-7xl text-center mb-4 md:pl-10 md:mb-5 2xl:mb-14 md:text-6xl lg:text-7xl 
                            lg:mb-9 xl:text-7xl 2xl:text-[68px]">BLOG</h1>
                     </div>
+
+                    <div className="w-[205px] h-[140px] bg-laptop bg-cover bg-center absolute bottom-[-10px] 
+                         right-6 md:bottom-[-43px] md:w-[255px] md:h-[170px] md:right-[50px] lg:right-[80px] lg:w-[300px] lg:h-[200px]
+                         xl:w-[365px] xl:h-[240px] xl:right-[80px] 2xl:right-[70px] 2xl:w-[415px] 2xl:h-[290px]"></div>
                 </div>
             </div>
 
@@ -32,7 +36,7 @@ export default function Pages() {
                     <BlogDiv widthFull goText={t("go")} callText={t("call")} />
                 </div>
 
-                <AboutSpan style="bg-bluedark text-white p-1 mr-0 mb-4 md:mt-10 md:mb-6" text={t('more')}/>
+                <AboutSpan style="bg-bluedark text-white p-1 mr-0 mb-4 md:mt-10 md:mb-6" text={t('more')} />
             </div>
 
         </section>

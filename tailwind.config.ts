@@ -56,6 +56,7 @@ const config: Config = {
         "sky": "url('/images/product-sky.webp')",
         "coqueiro": "url('/images/coqueiro2.webp')",
         "surf": "url('/images/surf-logo.webp')",
+        "laptop": "url('/images/laptop.webp')",
       },
       colors: {
         "bluedark" : "#002D3A",
