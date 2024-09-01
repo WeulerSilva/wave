@@ -44,7 +44,7 @@ export default function Pages() {
                         </div>
                     </div>
 
-                    <div className="w-full h-full flex justify-center items-center flex-col mb-12">
+                    <div className="w-full h-full flex justify-center items-center flex-col mb-12 mt-7 md:mt-0">
                         <div className="w-full flex justify-around items-center">
                             <span className="w-full flex justify-center items-center font-conthrax md:text-[14px] lg:text-[16px] 
                                         xl:text-[21.5px] 2xl:mb-[30px]">
