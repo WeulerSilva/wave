@@ -1,7 +1,4 @@
 import { useTranslations } from "next-intl";
-import { BlueDiv } from "../components/BlueDiv";
-import { BlueDivCenter } from "../components/BlueDivCenter";
-import { CircleDiv } from "../components/CircleDiv";
 
 export default function Pages() {
     const t = useTranslations('sustainability');

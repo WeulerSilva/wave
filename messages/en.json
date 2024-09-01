@@ -165,5 +165,11 @@
         "lp2": "Our technologies are carefully designed to minimize environmental and visual impact. We protect surrounding ecosystems by integrating innovative natural systems.",
         "l3": "Sustainable Propulsion:",
         "lp3": "Our green hydrogen-powered propulsion system is the backbone of our eco-efficiency."
+    },
+    "blog": {
+        "h1": "Discover the latest and most innovative trends in sustainability, technology, and eco-friendly markets in the surfing world.",
+        "call": "POST CALL",
+        "go": "READ FULL ARTICLE",
+        "more": "Show more"
     }
 }

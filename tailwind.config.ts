@@ -44,6 +44,7 @@ const config: Config = {
         "planta-2": "url('/images/planta-2.jpg')",
         "gota": "url('/images/gota2.webp')",
         "gotinha": "url('/images/gotinha1.webp')",
+        "mar-blog": "url('/images/mar-blog.webp')",
         "p-1": "url('/images/p-1.webp')",
         "p-2": "url('/images/p-2.webp')",
         "p-3": "url('/images/p-3.webp')",
