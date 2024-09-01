@@ -32,7 +32,7 @@ export default function Pages() {
             </div>
 
             <div className="w-full flex justify-center flex-col items-center bg-[#D4E7F3]">
-                <BlueDivCenter color="bg-bluedark" completBlue firstText={t("h2")} aboutStyle='hidden' />
+                <BlueDivCenter color="bg-bluedark" textSize="pl-6" completBlue firstText={t("h2")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
                                 text-justify md:px-0 md:pl-0 md:w-[85%] md:flex-col xl:w-[65%]'>
@@ -73,7 +73,7 @@ export default function Pages() {
             </div>
 
             <div className="w-full flex justify-center flex-col items-center">
-                <BlueDiv textSize="ml-6" completBlue firstText={t("h3")} aboutStyle="hidden" />
+                <BlueDiv textSize="md:ml-6" completBlue firstText={t("h3")} aboutStyle="hidden" />
 
                 <div className='w-full h-full flex justify-center items-center bg-gray-50'>
                     <div className="w-full h-full flex items-center justify-center flex-col 

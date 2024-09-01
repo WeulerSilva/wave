@@ -118,7 +118,7 @@ export default function HomePage() {
       </section>
 
       <section className='w-screen flex flex-col justify-center items-center'>
-        <BlueDiv textSize='text-[9px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1' link='/Sustainability'/>
+        <BlueDiv textSize='text-[9px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0' link='/Sustainability'/>
 
         <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[85%] md:h-[240px] md:flex-row xl:w-[65%]'>
           <div className='w-full md:w-[50%]'>
