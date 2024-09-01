@@ -62,7 +62,7 @@ export default function Pages() {
                     <p className="mb-7">{t("p2")}</p>
                     <p className="mb-7">{t("p3")}</p>
                     <p className="mb-7">{t("p4")}</p>
-                    <p>{t("p5")}</p>
+                    <p className="mb-7 md:mb-0">{t("p5")}</p>
                 </div>
 
                 <div className="w-full md:w-[50%]">
