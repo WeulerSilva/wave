@@ -175,9 +175,28 @@
     "contact": {
         "h1": "Contacto",
         "name": "Nombre",
+        "name-erro": "El nombre debe tener al menos 3 letras.",
         "phone": "Teléfono",
+        "phone-erro": "El teléfono debe contener solo números.",
         "email": "Correo electrónico",
+        "email-erro": "Por favor, ingrese una dirección de correo electrónico válida.",
         "message": "Mensaje",
-        "send": "Enviar"
+        "message-erro": "El mensaje debe tener al menos 10 caracteres.",
+        "send": "Enviar",
+        "h2": "FORMULARIO DE ANÁLISIS",
+        "company": "Empresa",
+        "company-erro": "Ingrese el nombre de su empresa.",
+        "city": "Ciudad",
+        "city-erro": "Ingrese el nombre de su ciudad.",
+        "messageWave-erro": "El mensaje debe tener al menos 10 caracteres.",
+        "detail": "Detalles del proyecto",
+        "wave": "¿Cómo se enteró de WaveSeg?",
+        "project-stage": "¿En qué etapa se encuentra su proyecto?",
+        "project-stage-erro": "Seleccione la etapa de su proyecto.",
+        "project-stage-idea": "Solo una idea",
+        "project-stage-initial": "Inicial",
+        "project-stage-intermediate": "Intermedio",
+        "project-stage-advanced": "Avanzado",
+        "h3": "Al completar este formulario, analizaremos las oportunidades para evaluar la viabilidad de los próximos pasos y programar la primera reunión."
     }
 }

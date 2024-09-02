@@ -175,9 +175,28 @@
     "contact": {
         "h1": "Contact",
         "name": "Name",
+        "name-erro": "The name must be at least 3 letters long.",
         "phone": "Phone",
+        "phone-erro": "The phone number should contain only numbers.",
         "email": "Email",
+        "email-erro": "Please enter a valid email address.",
         "message": "Message",
-        "send": "Send"
+        "message-erro": "The message must be at least 10 characters long.",
+        "send": "Send",
+        "h2": "ANALYSIS FORM",
+        "company": "Company",
+        "company-erro": "Enter your company's name.",
+        "city": "City",
+        "city-erro": "Enter your city's name.",
+        "messageWave-erro": "The message must be at least 10 characters long.",
+        "detail": "Project Details",
+        "wave": "How did you hear about WaveSeg?",
+        "project-stage": "What stage is your project in?",
+        "project-stage-erro": "Select the stage of your project.",
+        "project-stage-idea": "Just an idea",
+        "project-stage-initial": "Initial",
+        "project-stage-intermediate": "Intermediate",
+        "project-stage-advanced": "Advanced",
+        "h3": "By filling out this form, we will analyze opportunities to assess the viability of the next steps and schedule the first meeting."
     }
 }

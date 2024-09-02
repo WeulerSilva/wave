@@ -127,7 +127,7 @@ export const EmailContact = () => {
                             </div>
 
                             <div className="w-full h-full flex flex-col items-center md:items-start">
-                                <span className="text-[14px] md:text-[11px]">Telefone</span>
+                                <span className="text-[14px] md:text-[11px]">{t('phone')}</span>
                                 <input type="text"
                                     placeholder={phoneError || "Digite seu Telefone..."}
                                     onChange={(e) => setPhone(e.target.value)}
@@ -163,7 +163,7 @@ export const EmailContact = () => {
                                         ${messageError ? 'placeholder-red-600' : 'placeholder-[#6FC7DA]/0'}`}
                                 />
 
-                                <button type="submit" className="mt-4 font-conthrax text-[12px] bg-bluedark text-white px-3 rounded-lg uppercase">Enviar</button>
+                                <button type="submit" className="mt-4 font-conthrax text-[12px] bg-bluedark text-white px-3 rounded-lg uppercase">{t('send')}</button>
                             </div>
                         </div>
 
