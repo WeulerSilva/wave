@@ -11,7 +11,7 @@ export const Footer = () => {
 
     return (
         <footer className='w-screen flex justify-between items-center flex-col bg-bluedark'>
-            <div className='w-[95%] space-x-3 flex justify-between items-center xl:w-[65%]'>
+            <div className='w-[95%] space-x-3 flex justify-between items-center md:w-[85%]'>
                 <a className='w-36 h-12 bg-logo bg-contain bg-no-repeat bg-center cursor-pointer'
                     href="/"
                     title="HOME">

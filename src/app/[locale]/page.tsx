@@ -13,14 +13,14 @@ export default function HomePage() {
     <>
       <section>
         <div className='w-screen h-[450px] flex justify-center mb-4'>
-          <video className="w-full h-full object-cover border-white hover:border-[1px] md:w-[90%] xl:w-[70%]"
+          <video className="w-full h-full object-cover border-white hover:border-[1px] md:w-[90%]"
             src="https://cdn.pixabay.com/video/2023/09/30/182970-869947284_tiny.mp4"
             loop
             autoPlay
             muted />
         </div>
         <div className='w-screen h-[450px] flex justify-center'>
-          <div className='w-full h-full flex flex-col-reverse bg-onda bg-cover bg-[-240px] md:flex-row md:bg-center md:w-[90%] xl:w-[70%]'>
+          <div className='w-full h-full flex flex-col-reverse bg-onda bg-cover bg-[-240px] md:flex-row md:bg-center md:w-[90%]'>
             <div className='w-[50%] h-full flex items-end justify-start'>
               <p className='font-beyonders ml-8 mb-8 text-2xl text-white font-bold uppercase md:text-3xl xl:text-4xl'>
                 <span className='leading-[1.6]'>{t('image-first')}<br />{t('image-sec')}<br />{t('image-third')}</span>
@@ -40,7 +40,7 @@ export default function HomePage() {
       <section className='w-screen h-full flex justify-start items-center flex-col relative mt-14 mb-10 md:h-[300px] lg:h-[250px]'>
         <div className='w-screen h-[56px] bg-[linear-gradient(to_right,#36A9E1_40%,white_55%)] absolute top-0 z-10'></div>
 
-        <div className='w-full flex justify-center items-start flex-col md:w-[85%] md:flex-row z-20 xl:space-x-16 xl:w-[65%]'>
+        <div className='w-full flex justify-center items-start flex-col md:w-[85%] md:flex-row z-20 xl:space-x-16'>
           <div className='w-full h-full flex justify-start flex-col'>
             <div className='w-full h-[56px] flex justify-between items-center'>
               <h6 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>
@@ -62,6 +62,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/*
       <section className='w-screen bg-gray-100 flex justify-center items-center flex-col md:h-[380px] lg:h-[350px]'>
         <div className='w-full pl-6 h-ful md:pl-0 md:w-[85%] xl:w-[65%]'>
           <h2 className='mt-6 mb-4 text-xl font-semibold font-conthrax text-bluedark'>
@@ -81,15 +82,17 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      */}
+
 
       <div className='w-screen h-[210px] flex justify-center items-center bg-bluelight bg-mar-360 bg-cover bg-no-repeat bg-[-950px] md:bg-[-300px] xl:bg-center'>
-        <div className='w-[90%] h-full md:w-[90%] xl:w-[70%]'>
+        <div className='w-[90%] h-full md:w-[90%]'>
           <div className='w-full h-full bg-360 bg-center bg-contain bg-no-repeat md:w-[480px]'></div>
         </div>
       </div>
 
       <section className='w-screen bg-bluedark flex justify-center'>
-        <div className='w-[70%] flex flex-col justify-center items-center py-16 lg:flex-row lg:justify-between'>
+        <div className='w-[90%] flex flex-col justify-center items-center py-16 lg:flex-row lg:justify-between'>
           <div className='flex justify-start items-center text-center flex-col h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[25%]'>
             <AboutSpan link='/Technology' style='bg-bluelight text-bluedark' />
             <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{h('Technology')}</h6>
@@ -120,7 +123,7 @@ export default function HomePage() {
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv textSize='text-[9px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0' link='/Sustainability'/>
 
-        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[85%] md:h-[240px] md:flex-row xl:w-[65%]'>
+        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[85%] md:h-[240px] md:flex-row'>
           <div className='w-full md:w-[50%]'>
             <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0 lg:pt-5'>
               {t("r-s-p")}
@@ -133,7 +136,7 @@ export default function HomePage() {
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv firstText='Blog' aboutStyle='hidden' />
 
-        <div className='w-[85%] my-4 flex justify-between items-center flex-col md:pl-0 md:flex-row xl:w-[65%]'>
+        <div className='w-[85%] my-4 flex justify-between items-center flex-col md:pl-0 md:flex-row'>
           <BlogDiv callText={t("blog-call")} goText={t("blog-go")} />
           <BlogDiv callText={t("blog-call")} goText={t("blog-go")} />
           <BlogDiv callText={t("blog-call")} goText={t("blog-go")} />
@@ -144,7 +147,7 @@ export default function HomePage() {
 
       <section className='w-screen flex flex-col justify-center items-center relative mt-4'>
         <div className='w-full h-[56px] bg-[linear-gradient(to_right,#36A9E1_60%,white_95%)]  flex justify-center items-center'>
-          <div className='w-full flex justify-start items-center md:w-[85%] xl:w-[65%]'>
+          <div className='w-full flex justify-start items-center md:w-[85%]'>
             <h4 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>{t("follow")}</h4>
             <a href="https://www.instagram.com/wave.seg/" target='_blank'>
               <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='@wave.seg' />
@@ -153,7 +156,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className='w-[95%] h-[360px] space-x-1 flex justify-center items-center flex-col my-4 md:flex-row xl:w-[65%]'>
+        <div className='w-[95%] h-[360px] space-x-1 flex justify-center items-center flex-col my-4 md:w-[85%] md:flex-row'>
           <div className='w-full h-full bg-soon-1 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-2 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-3 bg-cover bg-no-repeat bg-center flex justify-center items-center'>
@@ -161,7 +164,7 @@ export default function HomePage() {
         </div>
 
         <div className='bg-[#CDCCCC] w-screen flex justify-center items-center flex-col mb-1'>
-          <div className='w-full flex justify-center items-center flex-col md:w-[85%] xl:w-[65%]'>
+          <div className='w-full flex justify-center items-center flex-col md:w-[85%]'>
             <h3 className='uppercase text-lg font-conthrax text-center text-bluedark mt-6 xl:text-[25px]'>
               {t("form-one")}
             </h3>

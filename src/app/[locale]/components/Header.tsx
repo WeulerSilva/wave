@@ -27,7 +27,7 @@ export default function Header() {
     const [MenuMobileOpen, setMenuMobileOpen] = useState<boolean>(false);
 
     return (
-        <header className="flex justify-around items-center space-x-2 relative w-screen h-28 bg-bluedark md:justify-center md:items-end xl:space-x-6">
+        <header className="flex justify-between items-center space-x-2 relative w-screen h-24 bg-bluedark md:justify-center md:items-end xl:space-x-6">
             <div className="w-60 h-28 flex justify-items-center items-end md:absolute md:w-52 md:h-44 md:top-10 lg:h-28
                             lg:relative lg:w-56">
                                 <div className="w-full h-full bg-logo bg-contain bg-no-repeat bg-bottom mb-9 md:bg-top md:mb-6 lg:bg-center"></div>
@@ -39,7 +39,7 @@ export default function Header() {
             />
 
             <div className="hidden md:flex md:relative">
-                <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[8.5px] lg:space-x-4 2xl:space-x-14">
+                <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[8.5px] md:text-[9px] lg:space-x-10 2xl:space-x-14">
                     {menuItems.map((item) => {
                         // Verifica se o item é a página atual
                         const isActive = 
@@ -50,8 +50,8 @@ export default function Header() {
                         return (
                             <li 
                                 key={item.key} 
-                                className={`font-conthrax cursor-pointer max-w-[106px] leading-none pb-2 font-semibold text-center 
-                                ${isActive ? 'border-b-4 border-bluelight' : 'border-b-4 border-[#002D3A] hover:border-bluelight'} 
+                                className={`font-conthrax cursor-pointer ${item.key === 'Blog' ? 'max-w-[90px]' : 'max-w-[106px]'} leading-none pb-2 font-semibold text-center 
+                                ${isActive ? 'border-b-2 border-bluelight' : 'border-b-2 border-[#002D3A] hover:border-bluelight'} 
                                 text-white`} 
                                 onClick={() => router.push(item.href)}
                             >
