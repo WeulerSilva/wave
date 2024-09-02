@@ -171,5 +171,32 @@
         "call": "CHAMADA DA PUBLICAÇÃO",
         "go": "VER MATÉRIA COMPLETA",
         "more": "Mostra mais"
+    },
+    "contact": {
+        "h1": "Contato",
+        "name": "Nome",
+        "name-erro": "O nome deve ter pelo menos 3 letras.",
+        "phone": "Telefone",
+        "phone-erro": "O telefone deve conter apenas números.",
+        "email": "Email",
+        "email-erro": "Por favor, insira um e-mail válido.",
+        "message": "Mensagem",
+        "message-erro": "A mensagem deve conter pelo menos 10 caracteres.",
+        "send": "Enviar",
+        "h2": "FORMULÁRIO DE ANÁLISE",
+        "company": "Empresa",
+        "company-erro": "Digite o nome da sua empresa.",
+        "city": "Cidade",
+        "city-erro": "Digite o nome da sua cidade.",
+        "messageWave-erro": "A mensagem deve conter pelo menos 10 caracteres.",
+        "detail": "Detalhes do projeto",
+        "wave": "Como ficou sabendo da WaveSeg?",
+        "project-stage": "Em qual estágio seu projeto se encontra?",
+        "project-stage-erro": "Selecione o estado do seu projeto.",
+        "project-stage-idea": "Apenas uma ideia",
+        "project-stage-initial": "inicial",
+        "project-stage-intermediate": "Intermediário",
+        "project-stage-advanced": "Avançado",
+        "h3": "Ao preencher, faremos uma análise de oportunidades para avaliar a viabilidade dos próximos passos e agendar a primeira reunião."
     }
 }

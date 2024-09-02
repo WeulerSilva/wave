@@ -171,5 +171,13 @@
         "call": "LLAMADA DE PUBLICACIÓN",
         "go": "VER ARTÍCULO COMPLETO",
         "more": "Mostrar más"
+    },
+    "contact": {
+        "h1": "Contacto",
+        "name": "Nombre",
+        "phone": "Teléfono",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "send": "Enviar"
     }
 }

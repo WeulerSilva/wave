@@ -1,9 +1,7 @@
 import { useTranslations } from "next-intl";
 import { BlueDiv } from "../components/BlueDiv";
-import { TitleParagraph } from "../components/TitleParagraph";
 import { LiDiv } from "../components/LiDiv";
 import { BlueDivCenter } from "../components/BlueDivCenter";
-import { CircleDiv } from "../components/CircleDiv";
 
 export default function Pages() {
     const t = useTranslations('tech');

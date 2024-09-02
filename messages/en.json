@@ -171,5 +171,13 @@
         "call": "POST CALL",
         "go": "READ FULL ARTICLE",
         "more": "Show more"
+    },
+    "contact": {
+        "h1": "Contact",
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
     }
 }
