@@ -40,7 +40,7 @@ export default function HomePage() {
       <section className='w-screen h-full flex justify-start items-center flex-col relative mt-14 mb-10 md:h-[300px] lg:h-[250px]'>
         <div className='w-screen h-[56px] bg-[linear-gradient(to_right,#36A9E1_40%,white_55%)] absolute top-0 z-10'></div>
 
-        <div className='w-full flex justify-center items-start flex-col md:w-[85%] md:flex-row z-20 xl:space-x-16'>
+        <div className='w-full flex justify-center items-start flex-col md:w-[90%] md:flex-row z-20 xl:space-x-16'>
           <div className='w-full h-full flex justify-start flex-col'>
             <div className='w-full h-[56px] flex justify-between items-center'>
               <h6 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>
@@ -123,7 +123,7 @@ export default function HomePage() {
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv textSize='text-[9px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0' link='/Sustainability'/>
 
-        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[85%] md:h-[240px] md:flex-row'>
+        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] md:flex-row'>
           <div className='w-full md:w-[50%]'>
             <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0 lg:pt-5'>
               {t("r-s-p")}
@@ -136,7 +136,7 @@ export default function HomePage() {
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv firstText='Blog' aboutStyle='hidden' />
 
-        <div className='w-[85%] my-4 flex justify-between items-center flex-col md:pl-0 md:flex-row'>
+        <div className='w-[90%] my-4 flex justify-between items-center flex-col md:pl-0 md:flex-row'>
           <BlogDiv callText={t("blog-call")} goText={t("blog-go")} />
           <BlogDiv callText={t("blog-call")} goText={t("blog-go")} />
           <BlogDiv callText={t("blog-call")} goText={t("blog-go")} />
@@ -147,7 +147,7 @@ export default function HomePage() {
 
       <section className='w-screen flex flex-col justify-center items-center relative mt-4'>
         <div className='w-full h-[56px] bg-[linear-gradient(to_right,#36A9E1_60%,white_95%)]  flex justify-center items-center'>
-          <div className='w-full flex justify-start items-center md:w-[85%]'>
+          <div className='w-full flex justify-start items-center md:w-[90%]'>
             <h4 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>{t("follow")}</h4>
             <a href="https://www.instagram.com/wave.seg/" target='_blank'>
               <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='@wave.seg' />
@@ -156,7 +156,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className='w-[95%] h-[360px] space-x-1 flex justify-center items-center flex-col my-4 md:w-[85%] md:flex-row'>
+        <div className='w-[95%] h-[360px] space-x-1 flex justify-center items-center flex-col my-4 md:w-[90%] md:flex-row'>
           <div className='w-full h-full bg-soon-1 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-2 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-3 bg-cover bg-no-repeat bg-center flex justify-center items-center'>
@@ -164,7 +164,7 @@ export default function HomePage() {
         </div>
 
         <div className='bg-[#CDCCCC] w-screen flex justify-center items-center flex-col mb-1'>
-          <div className='w-full flex justify-center items-center flex-col md:w-[85%]'>
+          <div className='w-full flex justify-center items-center flex-col md:w-[90%]'>
             <h3 className='uppercase text-lg font-conthrax text-center text-bluedark mt-6 xl:text-[25px]'>
               {t("form-one")}
             </h3>
