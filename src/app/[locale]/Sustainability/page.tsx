@@ -15,7 +15,7 @@ export default function Pages() {
 
             <div className="w-full flex justify-center flex-col items-center">
 
-                <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
+                <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
                                 text-justify md:pl-0 md:space-x-10 md:w-[85%] md:flex-row xl:w-[65%]'>
                     <div className="w-full mb-7 md:mb-0 md:w-[50%]">
                         <p className="mb-7">{t("p1")}</p>
@@ -37,16 +37,16 @@ export default function Pages() {
                 <div className='w-full h-[505px] relative md:w-[85%] md:h-full xl:w-[65%]'>
 
                     <div className="w-[165px] h-[150px] bg-gotinha bg-contain bg-no-repeat bg-center absolute bottom-0 
-                         right-0 md:w-[265px] md:h-[250px] xl:w-[400px] xl:h-full md:right-[-30px]"></div>
+                         right-0 md:w-[265px] md:h-[250px] xl:w-[330px] xl:h-full md:right-[-30px]"></div>
 
                     <div className="w-full h-full flex justify-start items-start flex-col 
-                            px-6 md:w-[65%] lg:w-[70%] xl:w-[60%]">
-                        <li className="text-[15px] list-none font-conthrax text-bluedark md:text-[17px] mt-7">{t("l1")}</li>
-                        <p className="text-[13px] font-nexa mb-7 md:text-[15px]">{t("lp1")}</p>
-                        <li className="text-[15px] list-none font-conthrax text-bluedark md:text-[17px]">{t("l2")}</li>
-                        <p className="text-[13px] font-nexa mb-7 md:text-[15px]">{t("lp2")}</p>
-                        <li className="text-[15px] list-none font-conthrax text-bluedark md:text-[17px]">{t("l3")}</li>
-                        <p className="text-[13px] font-nexa mb-7 md:text-[15px]">{t("lp3")}</p>
+                             md:w-[65%] lg:w-[70%] xl:w-[60%]">
+                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px] mt-7">{t("l1")}</li>
+                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("lp1")}</p>
+                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]">{t("l2")}</li>
+                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("lp2")}</p>
+                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]">{t("l3")}</li>
+                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("lp3")}</p>
                     </div>
                 </div>
             </div>

@@ -197,6 +197,11 @@
         "project-stage-initial": "Initial",
         "project-stage-intermediate": "Intermediate",
         "project-stage-advanced": "Advanced",
-        "h3": "By filling out this form, we will analyze opportunities to assess the viability of the next steps and schedule the first meeting."
+        "h3": "By filling out this form, we will analyze opportunities to assess the viability of the next steps and schedule the first meeting.",
+        "ok": "Thank you for submitting your information. We look forward to speaking with you soon...",
+        "ok-more": "Learn more about Waveseg®:",
+        "social": "Social Media:",
+        "back": "Back to the homepage:",
+        "ok-back": "Go back"
     }
 }

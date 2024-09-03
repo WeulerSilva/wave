@@ -27,7 +27,7 @@ export default function Header() {
     const [MenuMobileOpen, setMenuMobileOpen] = useState<boolean>(false);
 
     return (
-        <header className="flex justify-between items-center space-x-2 relative w-screen h-24 bg-bluedark md:justify-center md:items-end xl:space-x-6">
+        <header className="flex justify-around items-center space-x-2 relative w-screen h-24 bg-bluedark md:justify-center md:items-end xl:space-x-6">
             <div className="w-60 h-28 flex justify-items-center items-end md:absolute md:w-52 md:h-44 md:top-10 lg:h-28
                             lg:relative lg:w-56">
                                 <div className="w-full h-full bg-logo bg-contain bg-no-repeat bg-bottom mb-9 md:bg-top md:mb-6 lg:bg-center"></div>
@@ -39,7 +39,7 @@ export default function Header() {
             />
 
             <div className="hidden md:flex md:relative">
-                <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[8.5px] md:text-[9px] lg:space-x-10 2xl:space-x-14">
+                <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[8.5px] md:text-[9px] lg:space-x-3 xl:space-x-8 2xl:space-x-14">
                     {menuItems.map((item) => {
                         // Verifica se o item é a página atual
                         const isActive = 

@@ -10,10 +10,10 @@ export default function Pages() {
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
             <div className="w-full mt-6 flex justify-center flex-col items-center">
-                <BlueDiv high highSize="h-[71px]" completBlue firstText={t("h1")} aboutStyle='hidden' />
+                <BlueDiv high highSize="h-[71px]" textSize="text-[11px] md:text-[14px]" completBlue firstText={t("h1")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:pl-0 md:px-0 md:w-[85%] xl:w-[65%]'>
+                                text-justify md:pl-0 md:px-0 md:w-[85%]'>
                     <LiDiv text="li-1" />
                     <LiDiv text="li-2" />
                     <LiDiv text="li-3" />
@@ -33,28 +33,28 @@ export default function Pages() {
                 <BlueDivCenter color="bg-bluedark" textSize="pl-6" completBlue firstText={t("h2")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:px-0 md:pl-0 md:w-[85%] md:flex-col xl:w-[65%]'>
+                                text-justify md:px-0 md:pl-0 md:w-[85%] md:flex-col'>
                     <p className="font-nexa text-[12px] text-black mb-7 md:text-[15px]">
-                        <span className="font-conthrax text-[13px] text-bluedark md:text-[16px]">{t("h2-span-1")}</span>
+                        <span className="font-conthrax text-[11px] text-bluedark md:text-[13px]">{t("h2-span-1")}</span>
                         {t("h2-p1")}
                     </p>
 
                     <p className="font-nexa text-[12px] text-black mb-7 md:text-[15px]">
-                        <span className="font-conthrax text-[13px] text-bluedark md:text-[16px]">{t("h2-span-2")}</span>
+                        <span className="font-conthrax text-[11px] text-bluedark md:text-[13px]">{t("h2-span-2")}</span>
                         {t("h2-p2")}
-                        <span className="font-conthrax text-[13px] text-bluedark md:text-[16px]">{t("h2-span-3")}</span>
+                        <span className="font-conthrax text-[11px] text-bluedark md:text-[13px]">{t("h2-span-3")}</span>
                     </p>
 
                     <p className="font-nexa text-[12px] text-black mb-4 md:text-[15px]">
                         {t("h2-p3")}
-                        <span className="font-conthrax text-[13px] text-bluedark md:text-[16px]">{t("h2-span-4")}</span>
+                        <span className="font-conthrax text-[11px] text-bluedark md:text-[13px]">{t("h2-span-4")}</span>
                         {t("h2-p4")}
                     </p>
                 </div>
             </div>
 
-            <div className='w-full my-7 px-6 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:pl-0 md:px-0 md:space-x-10 md:w-[85%] md:flex-row xl:w-[65%]'>
+            <div className='w-full my-7 px-6 flex justify-between items-start flex-col text-[14px] font-nexa 
+                                text-justify md:pl-0 md:px-0 md:space-x-10 md:w-[85%] md:flex-row'>
                 <div className="w-full md:mb-0 md:w-[50%]">
                     <p className="mb-7">{t("p1")}</p>
                     <p className="mb-7">{t("p2")}</p>
@@ -75,26 +75,26 @@ export default function Pages() {
 
                 <div className='w-full h-full flex justify-center items-center bg-gray-50'>
                     <div className="w-full h-full flex items-center justify-center flex-col 
-                         space-y-4 md:space-y-0 md:space-x-12 py-8 md:flex-row md:w-[90%] xl:w-[70%]">
+                         space-y-4 md:space-y-0 md:space-x-12 py-8 md:flex-row md:w-[90%]">
                         <div className="w-full flex justify-center items-center flex-col mb-8 md:mb-0 lg:w-[25%]">
-                            <a className={`w-[250px] h-[60px] bg-cae-logo bg-contain bg-no-repeat bg-center 
-                                 md:w-[150px] lg:w-[250px] lg:h-[80px]`}
+                            <a className={`w-[200px] h-[60px] bg-cae-logo bg-contain bg-no-repeat bg-center 
+                                 md:w-[150px] lg:w-[200px] lg:h-[60px]`}
                                 href="https://www.caexperts.com.br"
                                 target="_blank"
                             ></a>
                         </div>
 
                         <div className="w-full flex justify-center items-center flex-col pb-8 md:pb-0 lg:w-[25%]">
-                            <a className={`w-[250px] h-[60px] bg-unity-logo bg-contain bg-no-repeat bg-center 
-                                 md:w-[150px] lg:w-[250px] lg:h-[80px]`}
+                            <a className={`w-[200px] h-[60px] bg-unity-logo bg-contain bg-no-repeat bg-center 
+                                 md:w-[150px] lg:w-[200px] lg:h-[60px]`}
                                 href="https://www.unity.eco.br"
                                 target="_blank"
                             ></a>
                         </div>
 
                         <div className="w-full flex justify-center items-center flex-col lg:w-[25%]">
-                            <a className={`w-[250px] h-[60px] bg-wb-logo bg-contain bg-no-repeat bg-center 
-                                 md:w-[150px] lg:w-[250px] lg:h-[80px]`}
+                            <a className={`w-[200px] h-[60px] bg-wb-logo bg-contain bg-no-repeat bg-center 
+                                 md:w-[150px] lg:w-[200px] lg:h-[60px]`}
                                 href="https://www.wbusiness.com.br/"
                                 target="_blank"
                             ></a>

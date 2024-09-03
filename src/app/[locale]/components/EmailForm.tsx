@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
 import { BlueDiv } from "./BlueDiv";
+import { AboutSpan } from "./AboutSpan";
+import { FormSend } from "./FormSend";
 
 export const EmailForm = () => {
     const t = useTranslations('contact');
@@ -15,6 +17,7 @@ export const EmailForm = () => {
     const [city, setCity] = useState('');
     const [messageWave, setMessageWave] = useState('');
     const [projectStage, setProjectStage] = useState('');
+    const [sucessEmail, setSucessEmail] = useState(false);
 
     const [nameError, setNameError] = useState('');
     const [phoneError, setPhoneError] = useState('');
@@ -152,6 +155,7 @@ export const EmailForm = () => {
                 setCity('');
                 setMessageWave('');
                 setProjectStage('');
+                setSucessEmail(true);
             }, (err) => {
                 console.log("Deu erro:", err);
             });
@@ -159,9 +163,14 @@ export const EmailForm = () => {
 
     return (
         <>
+            {sucessEmail &&
+                <FormSend />
+            }
+
+
             <BlueDiv firstText={t('h2')} aboutStyle="hidden" />
 
-            <div className='text-bluedark w-full h-full flex justify-center items-center flex-col text-[15px] font-nexa text-justify md:pl-0 md:w-[95%] xl:w-[65%]'>
+            <div className='text-bluedark w-full h-full flex justify-center items-center flex-col text-[15px] font-nexa text-justify md:pl-0 md:w-[95%] xl:w-[85%]'>
                 <div className="w-full h-full flex justify-start items-center flex-col mt-7 md:items-start">
                     <span className="w-[90%] mb-5 font-nexa text-[15px] md:text-[17px] md:w-[74%] md:mb-7">{t('h3')}</span>
 
@@ -171,7 +180,7 @@ export const EmailForm = () => {
                         <div className="w-full h-full flex flex-col md:flex-row">
                             <div className="w-full h-full flex items-start justify-center flex-col space-y-5 md:w-[50%]">
                                 <div className="w-full h-full flex items-center flex-col md:items-start">
-                                    <span className="text-[14px] md:text-[11px]">{t('name')}</span>
+                                    <span className="text-[14px] md:text-[15px]">{t('name')}</span>
                                     <input type="text"
                                         placeholder={nameError || "Digite seu nome..."}
                                         onChange={(e) => setName(e.target.value)}
@@ -183,7 +192,7 @@ export const EmailForm = () => {
                                 </div>
 
                                 <div className="w-full h-full flex flex-col items-center md:items-start">
-                                    <span className="text-[14px] md:text-[11px]">{t('email')}</span>
+                                    <span className="text-[14px] md:text-[15px]">{t('email')}</span>
                                     <input type="text"
                                         placeholder={emailError || "Digite seu email..."}
                                         onChange={(e) => setEmail(e.target.value)}
@@ -194,7 +203,7 @@ export const EmailForm = () => {
                                 </div>
 
                                 <div className="w-full h-full flex flex-col items-center md:items-start">
-                                    <span className="text-[14px] md:text-[11px]">{t('phone')}</span>
+                                    <span className="text-[14px] md:text-[15px]">{t('phone')}</span>
                                     <input type="text"
                                         placeholder={phoneError || "Digite seu Telefone..."}
                                         onChange={(e) => setPhone(e.target.value)}
@@ -206,7 +215,7 @@ export const EmailForm = () => {
                                 </div>
 
                                 <div className="w-full h-full flex items-center flex-col md:items-start">
-                                    <span className="text-[14px] md:text-[11px]">{t('company')}</span>
+                                    <span className="text-[14px] md:text-[15px]">{t('company')}</span>
                                     <input type="text"
                                         placeholder={companyError || "Digite nome da empresa..."}
                                         onChange={(e) => setCompany(e.target.value)}
@@ -218,7 +227,7 @@ export const EmailForm = () => {
                                 </div>
 
                                 <div className="w-full h-full flex items-center flex-col md:items-start">
-                                    <span className="text-[14px] md:text-[11px]">{t('city')}</span>
+                                    <span className="text-[14px] md:text-[15px]">{t('city')}</span>
                                     <input type="text"
                                         placeholder={cityError || "Digite a cidade..."}
                                         onChange={(e) => setCity(e.target.value)}
@@ -235,7 +244,7 @@ export const EmailForm = () => {
 
                                 <div className="w-full h-full flex justify-start items-center flex-col md:items-start">
                                     <div className="w-full h-full flex items-center flex-col mb-7 md:mb-0 md:items-start">
-                                        <span className="text-[14px] mb-2 md:text-[11px]">{t('project-stage')}</span>
+                                        <span className="text-[14px] mb-2 md:text-[15px]">{t('project-stage')}</span>
                                         <div className="flex justify-center flex-col items-center w-[80%] md:grid md:gap-2 md:justify-items-start md:grid-cols-2">
                                             <label className="flex items-center space-x-2">
                                                 <input
@@ -281,10 +290,10 @@ export const EmailForm = () => {
                                                 <span>{t('project-stage-advanced')}</span>
                                             </label>
                                         </div>
-                                        {projectStageError && <p className="text-red-600 text-[12px] md:mb-2">{projectStageError}</p>}
+                                        {projectStageError && <p className="text-red-600 text-[14px] md:mb-2">{projectStageError}</p>}
                                     </div>
 
-                                    <span className="text-[14px] mb-2 md:text-[11px]">{t('detail')}</span>
+                                    <span className="text-[14px] mb-2 md:text-[15px] md:mt-7">{t('detail')}</span>
                                     <textarea
                                         placeholder={messageError || "Digite sua mensagem..."}
                                         onChange={(e) => setMessage(e.target.value)}
@@ -294,7 +303,7 @@ export const EmailForm = () => {
                                         ${messageError ? 'placeholder-red-600' : 'placeholder-[#6FC7DA]/0'}`}
                                     />
 
-                                    <span className="text-[14px] mb-2 md:text-[11px]">{t('wave')}</span>
+                                    <span className="text-[14px] mb-2 md:text-[15px]">{t('wave')}</span>
                                     <textarea
                                         placeholder={messageWaveError || "Digite sua mensagem..."}
                                         onChange={(e) => setMessageWave(e.target.value)}
@@ -315,7 +324,6 @@ export const EmailForm = () => {
                         </div>
                     </form>
                 </div>
-
             </div>
         </>
     )

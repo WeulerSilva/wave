@@ -11,11 +11,11 @@ export const ProductDiv= ({ firstText, img}: Props) => {
     
 
     return (
-        <div className="flex justify-center items-center w-[384px] h-[113px] bg-bluedark rounded-3xl md:w-[300px] md:[100px] 
-                        lg:w-[270px] xl:w-[300px] 2xl:w-[384px] 2xl:h-[113px]">
-            <div className={`w-[30%] h-[80%] ${img} bg-contain bg-no-repeat bg-center`}></div>
-            <span className="w-[60%] h-full flex justify-start items-center pl-3 text-white font-conthrax text-[17px] 
-                    lg:text-[15px] xl:text-[17px]">{firstText}</span>
+        <div className="flex justify-center items-center w-[290px] h-[113px] bg-bluedark rounded-3xl md:w-[250px] md:h-[80px] 
+                        lg:w-[250px] 2xl:w-[300px]">
+            <div className={`w-[27%] h-[70%] ${img} bg-contain bg-no-repeat bg-center`}></div>
+            <span className="w-[60%] h-full flex justify-start items-center pl-3 text-white font-conthrax text-[15px] 
+                    lg:text-[14px] xl:text-[15px]">{firstText}</span>
         </div>
     )
 }

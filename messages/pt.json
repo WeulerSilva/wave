@@ -197,6 +197,11 @@
         "project-stage-initial": "inicial",
         "project-stage-intermediate": "Intermediário",
         "project-stage-advanced": "Avançado",
-        "h3": "Ao preencher, faremos uma análise de oportunidades para avaliar a viabilidade dos próximos passos e agendar a primeira reunião."
+        "h3": "Ao preencher, faremos uma análise de oportunidades para avaliar a viabilidade dos próximos passos e agendar a primeira reunião.",
+        "ok": "Obrigado por nos enviar suas informações. Estamos ansiosos para falar com você em breve...",
+        "ok-more": "Descubra mais sobre a Waveseg®:",
+        "social": "Redes Sociais:",
+        "back": "Voltar para a pagina inicial:",
+        "ok-back": "Voltar"
     }
 }

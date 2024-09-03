@@ -197,6 +197,11 @@
         "project-stage-initial": "Inicial",
         "project-stage-intermediate": "Intermedio",
         "project-stage-advanced": "Avanzado",
-        "h3": "Al completar este formulario, analizaremos las oportunidades para evaluar la viabilidad de los próximos pasos y programar la primera reunión."
+        "h3": "Al completar este formulario, analizaremos las oportunidades para evaluar la viabilidad de los próximos pasos y programar la primera reunión.",
+        "ok": "Gracias por enviarnos su información. Esperamos poder hablar con usted pronto...",
+        "ok-more": "Descubra más sobre Waveseg®:",
+        "social": "Redes Sociales:",
+        "back": "Volver a la página principal:",
+        "ok-back": "Volver"
     }
 }

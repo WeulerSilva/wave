@@ -29,7 +29,7 @@ export default function HomePage() {
 
             <div className='w-full h-full flex justify-center items-start pt-8 pl-20 pr-8 md:pl-0 md:pb-8 md:pt-8 md:pr-8 
                   md:items-start md:w-[50%] lg:items-end lg:pt-0 xl:pr-0'>
-              <p className='text-md text-[#05090a] font-semibold text-right md:text-bluedark md:text-left  md:text-lg xl:px-14'>
+              <p className='text-md text-[#05090a] font-semibold text-right md:text-bluedark md:text-left  md:text-md xl:px-14'>
                 <span className='font-conthrax leading-none'>{t('image-p')}</span>
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function HomePage() {
               </h6>
               <AboutSpan link='/About' style='bg-bluedark mr-6 text-white' />
             </div>
-            <p className='mt-10 px-6 text-bluedark text-justify font-nexa md:px-0 md:mt-6'>
+            <p className='mt-10 px-6 text-bluedark text-justify font-nexa md:text-[15px] md:px-0 md:mt-6'>
               {t('video-p')}
             </p>
           </div>

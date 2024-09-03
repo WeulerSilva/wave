@@ -10,18 +10,18 @@ export default function Pages() {
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
             <div className="w-full mt-10 flex justify-center flex-col items-center">
-                <BlueDivCenter color="bg-bluelight uppercase" completBlue firstText={t("h1")} aboutStyle="hidden" />
+                <BlueDivCenter color="bg-bluelight uppercase" textSize="text-[14px] lg:text-[16px]" completBlue firstText={t("h1")} aboutStyle="hidden" />
 
                 <div className='text-bluedark w-full h-full flex justify-center items-center flex-col text-[15px] font-nexa 
-                                text-justify md:pl-0 md:w-[95%] xl:w-[85%]'>
-                    <h1 className="mt-2 mb-16 font-conthrax text-[15px] text-center 2xl:text-lg">
+                                text-justify md:pl-0 md:w-[95%]'>
+                    <h1 className="mt-2 mb-16 font-conthrax text-[14px] text-center 2xl:text-lg">
                         {t("h6")}
                     </h1>
 
                     <div className="w-full h-full flex justify-center items-center flex-col mb-12">
                         <div className="w-full flex justify-around items-center">
-                            <span className="w-full flex justify-center items-center font-conthrax md:text-[14px] lg:text-[16px] 
-                                        xl:text-[21.5px] 2xl:mb-[30px]">
+                            <span className="w-full flex justify-center items-center font-conthrax md:text-[14px] 
+                                        xl:text-[19.5px] 2xl:mb-[30px]">
                                 {t("m-h-1")}
                             </span>
 
@@ -32,7 +32,7 @@ export default function Pages() {
                             <div className="w-full h-[200px] bg-planta-1 bg-center bg-contain bg-no-repeat md:h-[270px] md:bg-top
                                             2xl:bg-center"></div>
                             <div className="w-full h-[200px] flex justify-start items-start md:h-[270px]">
-                                <ul className="text-[15px] p-4 md:p-0 md:pt-3">
+                                <ul className="text-[13px] p-4 md:p-0 md:pt-3">
                                     <li className="font-conthrax text-[#676767]">{t("m-l-1")} <span className="text-bluedark">{t('m-span-1')}</span></li>
                                     <li className="font-conthrax text-[#676767]">{t("m-l-2")} <span className="text-bluedark">{t('m-span-2')}</span></li>
                                     <li className="font-conthrax text-[#676767]">{t("m-l-3")} <span className="text-bluedark">{t('m-span-3')}</span></li>
@@ -46,8 +46,8 @@ export default function Pages() {
 
                     <div className="w-full h-full flex justify-center items-center flex-col mb-12 mt-24 md:mt-0">
                         <div className="w-full flex justify-around items-center">
-                            <span className="w-full flex justify-center items-center font-conthrax md:text-[14px] lg:text-[16px] 
-                                        xl:text-[21.5px] 2xl:mb-[30px]">
+                            <span className="w-full flex justify-center items-center font-conthrax md:text-[14px] lg:text-[14px] 
+                                        xl:text-[19.5px] 2xl:mb-[30px]">
                                 {t("m2-h-1")}
                             </span>
 
@@ -58,7 +58,7 @@ export default function Pages() {
                             <div className="w-full h-[200px] bg-planta-1 bg-center bg-contain bg-no-repeat md:h-[270px] md:bg-top
                                             2xl:bg-center"></div>
                             <div className="w-full h-[200px] flex justify-start items-start md:h-[270px]">
-                                <ul className="text-[15px] p-4 md:p-0 md:pt-3">
+                                <ul className="text-[13px] p-4 md:p-0 md:pt-3">
                                     <li className="font-conthrax text-[#676767]">{t("m2-l-1")} <span className="text-bluedark">{t('m2-span-1')}</span></li>
                                     <li className="font-conthrax text-[#676767]">{t("m2-l-2")} <span className="text-bluedark">{t('m2-span-2')}</span></li>
                                     <li className="font-conthrax text-[#676767]">{t("m2-l-3")} <span className="text-bluedark">{t('m2-span-3')}</span></li>
@@ -76,7 +76,7 @@ export default function Pages() {
             <div className="w-full mt-10 flex justify-center flex-col items-center">
                 <BlueDiv textSize="xl:pl-14" completBlue firstText={t("div-h")} aboutStyle='hidden' />
 
-                <div className='w-full mt-7 px-6 my-4 mb-9 md:pl-0 md:w-[85%] xl:w-[65%]'>
+                <div className='w-full mt-7 px-6 my-4 mb-9 md:pl-0 md:w-[85%]'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center lg:grid-cols-3">
                         <ProductDiv img="bg-p-1" firstText={t("div-1")} />
                         <ProductDiv img="bg-p-2" firstText={t("div-2")} />
@@ -93,20 +93,20 @@ export default function Pages() {
             <div className="w-full flex justify-center flex-col items-center">
                 <BlueDivCenter completBlue color="bg-bluelight" firstText={t("h2")} aboutStyle='hidden' />
 
-                <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-black text-justify md:pl-0 md:w-[85%] xl:w-[65%]'>
+                <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
+                                text-black text-justify md:pl-0 md:w-[85%]'>
                     <p className="w-full mb-7">{t('p1')}</p>
 
                     <div className="w-full h-full flex justify-center items-start flex-col md:flex-row md:space-x-[92px]">
                         <div className="w-full list-none md:w-[50%]">
-                            <li className="text-[16px] font-conthrax text-bluedark">{t("l1")}</li>
+                            <li className="text-[14px] font-conthrax text-bluedark">{t("l1")}</li>
                             <p className="mb-7">{t("lp1")}</p>
-                            <li className="text-[16px] font-conthrax text-bluedark">{t("l2")}</li>
+                            <li className="text-[14px] font-conthrax text-bluedark">{t("l2")}</li>
                             <p className="mb-7">{t("lp2")}</p>
                         </div>
 
                         <div className="flex justify-center items-start flex-col w-full list-none md:w-[50%]">
-                            <li className="text-[16px] font-conthrax text-bluedark">{t("l3")}</li>
+                            <li className="text-[14spx] font-conthrax text-bluedark">{t("l3")}</li>
                             <p className="mb-7">{t("lp3")}</p>
                         </div>
                     </div>
@@ -119,17 +119,17 @@ export default function Pages() {
             <div className="w-full mt-5 flex justify-center flex-col items-center bg-sky bg-cover bg-center">
                 <BlueDiv textSize="xl:pl-14" firstText="Surf Place" aboutStyle='hidden' />
 
-                <div className='w-full h-[505px] relative md:w-[85%] md:h-[330px] xl:w-[65%]'>
+                <div className='w-full h-[435px] relative md:w-[85%] md:h-[230px]'>
                     <div className="w-[165px] h-[150px] bg-coqueiro bg-cover bg-center absolute bottom-[-1px] 
-                         right-0 md:w-[265px] md:h-[250px] xl:w-[455px] xl:h-[405px] md:right-[-50px] 2xl:right-6"></div>
+                         right-0 md:w-[265px] md:h-[250px] xl:w-[325px] xl:h-[300px] md:right-[-50px] 2xl:right-6"></div>
 
                     <div className="w-full h-full flex justify-start items-center flex-col 
                             md:w-[65%] lg:w-[70%] lg:flex-row xl:w-[60%]">
                         <div className="flex justify-center items-center h-[50%] md:h-full">
-                            <div className="w-[150px] h-[150px] bg-surf bg-center bg-cover lg:w-[197px] lg:h-[197px]"></div>
+                            <div className="w-[93px] h-[90px] bg-surf bg-center bg-cover md:w-[73px] md:h-[70px] lg:w-[145px] lg:h-[140px]"></div>
                         </div>
-                        <div className="flex justify-start items-start text-[17px] font-nexa text-justify w-full h-full 
-                               md:items-center px-7 lg:px-8 2xl:pb-16">
+                        <div className="flex justify-start items-start text-[15px] font-nexa text-justify w-full h-full 
+                              md:text-[13px] md:items-start lg:items-center lg:text-[15px] px-7 lg:px-8 2xl:pb-16">
                             <p>{t("surf")}</p>
                         </div>
                     </div>
