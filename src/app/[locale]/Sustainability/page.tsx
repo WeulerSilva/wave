@@ -39,8 +39,8 @@ export default function Pages() {
                     <div className="w-[165px] h-[150px] bg-gotinha bg-contain bg-no-repeat bg-center absolute bottom-0 
                          right-0 md:w-[265px] md:h-[250px] xl:w-[330px] xl:h-full md:right-[-30px]"></div>
 
-                    <div className="w-full h-full flex justify-start items-start flex-col 
-                             md:w-[65%] lg:w-[70%] xl:w-[60%]">
+                    <div className="w-full h-full flex justify-start items-center flex-col text-center px-4
+                             md:px-0 md:text-left md:items-start md:w-[65%] lg:w-[70%] xl:w-[60%]">
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px] mt-7">{t("l1")}</li>
                         <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("lp1")}</p>
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]">{t("l2")}</li>

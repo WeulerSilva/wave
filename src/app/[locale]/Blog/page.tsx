@@ -20,9 +20,9 @@ export default function Pages() {
                 </div>
             </div>
 
-            <div className="w-full mt-7 px-6 my-4 flex justify-center items-center flex-col text-[15px] font-nexa 
+            <div className="w-full mt-7 px-2 my-4 flex justify-center items-center flex-col text-[15px] font-nexa 
                             text-center md:items-start md:justify-start md:text-justify md:pl-0 md:space-x-10 md:w-[90%] md:flex-row">
-                <h3 className="w-[80%] h-full text-[17px] font-conthrax md:text-[17px]">{t("h1")}</h3>
+                <h3 className="w-[80%] h-full text-center text-[13px] font-conthrax md:text-[17px]">{t("h1")}</h3>
             </div>
 
             <div className='w-full mt-7 px-6 my-4 flex justify-between items-center flex-col text-[15px] font-nexa 

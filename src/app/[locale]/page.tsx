@@ -31,7 +31,7 @@ export default function HomePage() {
 
             <div className='w-full h-full flex justify-center items-start pt-8 pl-20 pr-8 md:pl-0 md:pb-8 md:pt-8 md:pr-8 
                   md:items-start md:w-[50%] lg:items-end lg:pt-0 xl:pr-0'>
-              <p className='text-md text-[#05090a] font-semibold text-right md:text-bluedark md:text-left  md:text-md xl:px-14'>
+              <p className='text-md text-bluedark font-semibold text-right md:text-bluedark md:text-left  md:text-md xl:px-14'>
                 <span className='font-conthrax leading-none'>{t('image-p')}</span>
               </p>
             </div>
@@ -125,7 +125,7 @@ export default function HomePage() {
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv textSize='text-[9px] md:text-[14px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0 md:text-[10px]' link='/Sustainability' />
 
-        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] md:flex-row xl:space-x-96 2xl:space-x-[500px]'>
+        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] md:flex-row xl:space-x-16 2xl:space-x-[100px]'>
           <div className='w-full md:w-[50%]'>
             <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0 lg:pt-5'>
               {t("r-s-p")}
@@ -151,8 +151,8 @@ export default function HomePage() {
         <div className='w-full h-[56px] bg-[linear-gradient(to_right,#36A9E1_60%,white_95%)]  flex justify-center items-center'>
           <div className='w-full flex justify-start items-center md:w-[90%]'>
             <h4 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>{t("follow")}</h4>
-            <a href="https://www.instagram.com/wave.seg/" target='_blank'>
-              <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='@wave.seg' />
+            <a href="https://www.instagram.com/waveseg.oficial/" target='_blank'>
+              <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='Waveseg.oficial' />
             </a>
 
           </div>
@@ -162,7 +162,7 @@ export default function HomePage() {
           <div className='w-full h-full bg-soon-1 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-2 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-3 bg-cover bg-no-repeat bg-center flex justify-center items-center'>
-            <span className='text-white font-conthrax text-2xl uppercase'>{t("soon-first")}<br />{t("soon-two")}</span></div>
+            {/*<span className='text-white font-conthrax text-2xl uppercase'>{t("soon-first")}<br />{t("soon-two")}</span>*/}</div>
         </div>
 
         <div className='bg-[#CDCCCC] w-screen flex justify-center items-center flex-col mb-1'>

@@ -31,7 +31,7 @@ export default function Pages() {
             </div>
 
             <div className="w-full flex justify-center flex-col items-center bg-[#D4E7F3]">
-                <BlueDivCenter color="bg-bluedark" textSize="pl-6" completBlue firstText={t("h2")} aboutStyle='hidden' />
+                <BlueDivCenter color="bg-bluedark" textSize="pl-6 text-[11px] md:text-[14px]" completBlue firstText={t("h2")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
                                 text-justify md:px-0 md:pl-0 md:w-[90%] md:flex-col'>

@@ -245,7 +245,7 @@ export const EmailForm = () => {
                                 <div className="w-full h-full flex justify-start items-center flex-col md:items-start">
                                     <div className="w-full h-full flex items-center flex-col mb-7 md:mb-0 md:items-start">
                                         <span className="text-[14px] mb-2 md:text-[15px]">{t('project-stage')}</span>
-                                        <div className="flex justify-center flex-col items-center w-[80%] md:grid md:gap-2 md:justify-items-start md:grid-cols-2">
+                                        <div className="flex justify-center flex-col items-start w-[80%] md:grid md:gap-2 md:justify-items-start md:grid-cols-2">
                                             <label className="flex items-center space-x-2">
                                                 <input
                                                     type="radio"
