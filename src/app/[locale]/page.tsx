@@ -12,12 +12,14 @@ export default function HomePage() {
   return (
     <>
       <section>
-        <div className='w-screen h-[450px] flex justify-center mb-4'>
-          <video className="w-full h-full object-cover border-white hover:border-[1px] md:w-[90%]"
-            src="https://cdn.pixabay.com/video/2023/09/30/182970-869947284_tiny.mp4"
+        <div className='w-screen h-screen flex justify-center mb-4'>
+          
+          <video className="w-screen h-full object-cover"
+            src="/images/onda.mp4"
             loop
             autoPlay
             muted />
+  
         </div>
         <div className='w-screen h-[450px] flex justify-center'>
           <div className='w-full h-full flex flex-col-reverse bg-onda bg-cover bg-[-240px] md:flex-row md:bg-center md:w-[90%]'>
@@ -40,13 +42,13 @@ export default function HomePage() {
       <section className='w-screen h-full flex justify-start items-center flex-col relative mt-14 mb-10 md:h-[300px] lg:h-[250px]'>
         <div className='w-screen h-[56px] bg-[linear-gradient(to_right,#36A9E1_40%,white_55%)] absolute top-0 z-10'></div>
 
-        <div className='w-full flex justify-center items-start flex-col md:w-[90%] md:flex-row z-20 xl:space-x-16'>
+        <div className='w-full flex justify-center items-start flex-col md:w-[90%] md:flex-row z-20 xl:space-x-96 2xl:space-x-[500px]'>
           <div className='w-full h-full flex justify-start flex-col'>
             <div className='w-full h-[56px] flex justify-between items-center'>
               <h6 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>
                 {t('about')}
               </h6>
-              <AboutSpan link='/About' style='bg-bluedark mr-6 text-white' />
+              <AboutSpan link='/About' style='bg-bluedark text-white' />
             </div>
             <p className='mt-10 px-6 text-bluedark text-justify font-nexa md:text-[15px] md:px-0 md:mt-6'>
               {t('video-p')}
@@ -102,7 +104,7 @@ export default function HomePage() {
           <div className='flex justify-start items-center flex-col text-center h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[18%]'>
             <AboutSpan link='/Products' style='bg-bluelight text-bluedark' />
             <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{t('products')}</h6>
-            <p className='text-gray-400 font-nexa'>WS-1.64 - 64 {t('cameras')}<br />WS-1.32 - 32 {t('cameras')}</p>
+            <p className='text-gray-400 font-nexa'>WS-1.64 - 64 {t('cameras')}.<br />WS-1.32 - 32 {t('cameras')}.</p>
           </div>
 
           <div className='flex justify-start items-center flex-col text-center h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[25%]'>
@@ -114,16 +116,16 @@ export default function HomePage() {
           <div className='flex justify-start items-center flex-col text-center h-full w-[80%] md:w-[50%] lg:w-[25%]'>
             <AboutSpan link='/Market' style='bg-bluelight text-bluedark' />
             <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{h('Market')}</h6>
-            <p className='text-gray-400 font-nexa'>{t('market')}</p>
+            <p className='text-gray-400 font-nexa'>{t('market')}.</p>
           </div>
         </div>
 
       </section>
 
       <section className='w-screen flex flex-col justify-center items-center'>
-        <BlueDiv textSize='text-[9px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0' link='/Sustainability'/>
+        <BlueDiv textSize='text-[9px] md:text-[14px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0 md:text-[10px]' link='/Sustainability' />
 
-        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] md:flex-row'>
+        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] md:flex-row xl:space-x-96 2xl:space-x-[500px]'>
           <div className='w-full md:w-[50%]'>
             <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0 lg:pt-5'>
               {t("r-s-p")}
