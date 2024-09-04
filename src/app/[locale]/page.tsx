@@ -31,7 +31,7 @@ export default function HomePage() {
 
             <div className='w-full h-full flex justify-center items-start pt-8 pl-20 pr-8 md:pl-0 md:pb-8 md:pt-8 md:pr-8 
                   md:items-start md:w-[50%] lg:items-end lg:pt-0 xl:pr-0'>
-              <p className='text-md text-bluedark font-semibold text-right md:text-bluedark md:text-left  md:text-md xl:px-14'>
+              <p className='hidden text-md text-bluedark font-semibold text-right md:flex md:text-bluedark md:text-left  md:text-md xl:px-14'>
                 <span className='font-conthrax leading-none'>{t('image-p')}</span>
               </p>
             </div>
@@ -58,7 +58,9 @@ export default function HomePage() {
           <div className='w-full h-full flex justify-center mt-10 md:mt-0 md:justify-end'>
             <video className="w-full h-full object-cover border-white hover:border-[1px] md:rounded-2xl md:w-[90%] xl:w-full xl:h-[250px]"
               src="https://cdn.pixabay.com/video/2023/09/30/182970-869947284_tiny.mp4"
-              controls
+              loop
+              autoPlay
+              muted
             />
           </div>
         </div>
@@ -152,7 +154,7 @@ export default function HomePage() {
           <div className='w-full flex justify-start items-center md:w-[90%]'>
             <h4 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>{t("follow")}</h4>
             <a href="https://www.instagram.com/waveseg.oficial/" target='_blank'>
-              <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='Waveseg.oficial' />
+              <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='@Waveseg.oficial' />
             </a>
 
           </div>

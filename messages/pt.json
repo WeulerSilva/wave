@@ -49,7 +49,7 @@
         "Contact": "Contato"
     },
     "market": {
-        "h1": "Transforme Seu Empreendimento com a Waveseg®",
+        "h1": "Transforme Seu Empreendimento com a Waveseg",
         "h2": "INVESTIMENTO INTELIGENTE",
         "p1": "A Waveseg® se posiciona na vanguarda do mercado de surf em piscinas eco-friendly. Nossa expertise em criar piscinas de ondas para surf abre um leque de oportunidades para diversos tipos de clientes, incluindo investidores, incorporadores imobiliários, condomínios, shopping center, prefeituras, parques aquáticos, parques de esportes radicais, clubes ou academias, etc. Ao ser uma tecnologia modular, temos a versatilidade de poder atender todo tipo de empreendimento; dos mais simples aos mais luxuosos. Nossas atrações são altamente personalizáveis, perfeitas tanto para o entretenimento de usuários iniciantes quanto para treinamentos de profissionais do surf.",
         "p2": "A presença de uma piscina de ondas da Waveseg® eleva seu projeto a outro patamar e o distingue significativamente no mercado. Com uma demanda crescente por experiências autênticas de surf em piscinas, e uma oferta reduzida de atrações inovadoras, investir em nossa tecnologia é uma decisão estratégica que assegura alta rentabilidade e exclusividade. ",
@@ -197,7 +197,7 @@
         "city-erro": "Digite o nome da sua cidade.",
         "messageWave-erro": "A mensagem deve conter pelo menos 10 caracteres.",
         "detail": "Detalhes do projeto",
-        "wave": "Como ficou sabendo da WaveSeg?",
+        "wave": "Como ficou sabendo da Waveseg?",
         "project-stage": "Em qual estágio seu projeto se encontra?",
         "project-stage-erro": "Selecione o estado do seu projeto.",
         "project-stage-idea": "Apenas uma ideia",

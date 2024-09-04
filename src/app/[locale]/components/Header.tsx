@@ -6,6 +6,7 @@ import LanguageToggle from "./LanguageToggle";
 import { MenuMobile } from "./MenuMobile";
 import { useState } from "react";
 import LanguageMobile from "./LanguageMobile";
+import Link from "next/link";
 
 export default function Header() {
     const t = useTranslations('header');
@@ -31,7 +32,9 @@ export default function Header() {
             <div className="w-full h-full flex justify-around items-center md:items-end lg:justify-between lg:w-[90%] xl:w-[89.5%]">
                 <div className="w-60 h-28 flex justify-items-center items-end md:absolute md:w-52 md:h-44 md:top-10 lg:h-28
                             lg:relative lg:w-56">
-                    <div className="w-full h-full bg-logo bg-contain bg-no-repeat bg-bottom mb-9 md:bg-top md:mb-6 lg:bg-center"></div>
+                    <Link href={'/'} className="w-full h-full flex justify-items-center items-end">
+                        <div className="w-full h-full bg-logo bg-contain bg-no-repeat bg-bottom mb-9 md:bg-top md:mb-6 lg:bg-center"></div>
+                    </Link>
                 </div>
 
                 <MenuMobile
