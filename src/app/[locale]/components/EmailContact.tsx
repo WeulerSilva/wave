@@ -93,7 +93,7 @@ export const EmailContact = () => {
 
         console.log(process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
 
-        emailjs.send("service_sehnuts", "template_oi24zff", templateParams, process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
+        emailjs.send("service_sehnuts", "template_tpoqg2s", templateParams, "b8thRCDhLUkpVcbAB")
             .then((response) => {
                 console.log("email Enviado", response.status, response.text);
                 setMessage('');
@@ -102,7 +102,6 @@ export const EmailContact = () => {
                 setPhone('');
                 setSucessEmail(true);
             }, (err) => {
-                console.log("Deu erro:", err);
             });
     }
 

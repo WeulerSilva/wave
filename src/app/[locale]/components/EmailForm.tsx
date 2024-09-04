@@ -51,10 +51,11 @@ export const EmailForm = () => {
     }
 
     function validateCompany(company: string): boolean {
-        // Define um regex que permite letras, números e alguns caracteres especiais
-        const companyRegex = /^[A-Za-z0-9\s\-\.\,]+$/;
-        return companyRegex.test(company.trim());
+        // Define um regex que permite letras (incluindo acentuadas), números, espaços, hífens, pontos e vírgulas
+        const companyRegex = /^[A-Za-zÀ-ÿ0-9\s\-\.\,\~]+$/;
+        return company.trim().length <= 30 && companyRegex.test(company.trim());
     }
+
 
     function validateForm(): boolean {
         let isValid = true;
@@ -144,9 +145,8 @@ export const EmailForm = () => {
             message_wave: messageWave
         };
 
-        emailjs.send("service_sehnuts", "template_oi24zff", templateParams, process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
+        emailjs.send("service_sehnuts", "template_oi24zff", templateParams, "b8thRCDhLUkpVcbAB")
             .then((response) => {
-                console.log("email Enviado", response.status, response.text);
                 setMessage('');
                 setEmail('');
                 setName('');
