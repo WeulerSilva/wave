@@ -12,7 +12,7 @@ export default function Pages() {
                 <BlueDiv completBlue firstText={t("h1")} textSize="text-[12px] md:text-[14px] lg:text-[16px]" aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
-                                text-justify md:pl-0 md:space-x-10 md:w-[85%] md:flex-row'>
+                                text-justify md:pl-0 md:space-x-10 md:w-[90%] md:flex-row'>
                     <div className="w-full mb-7 md:mb-0 md:w-[50%]">
                         <p className="mb-7">{t("p1")}</p>
                         <p>{t("p2")}</p>
@@ -29,7 +29,7 @@ export default function Pages() {
                 <BlueDiv completBlue firstText={t("h2")} textSize="text-[14px] lg:text-[16px]" aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:pl-0 md:space-x-10 md:w-[85%] md:flex-row'>
+                                text-justify md:pl-0 md:space-x-10 md:w-[90%] md:flex-row'>
                     <div className="w-full md:w-[50%]">
                         <TitleParagraph h1={t('m-h-1')} p={t('m-p-1')} />
                         <TitleParagraph h1={t('m-h-2')} p={t('m-p-2')} />

@@ -9,23 +9,24 @@ export default function Pages() {
 
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
-            <div className="w-full mt-6 flex justify-center flex-col items-center">
+            <div className="w-full flex justify-center flex-col items-center">
+                <div className="w-full h-[217px] bg-onda-tech bg-cover bg-[-100px] md:bg-[-10px] 2xl:bg-[-4px]">
+                    <div className="w-full h-[96%] flex justify-end items-end md:h-[92%] lg:h-[88%]">
+                        <h1 className="font-beyonders text-white text-2xl  md:text-4xl lg:text-5xl lg:pr-[107px] xl:text-[51px]"
+                        >{t("img-text")}</h1>
+                    </div>
+                </div>
+
                 <BlueDiv high highSize="h-[71px]" textSize="text-[11px] md:text-[14px]" completBlue firstText={t("h1")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:pl-0 md:px-0 md:w-[85%]'>
+                                text-justify md:pl-0 md:px-0 md:w-[90%]'>
                     <LiDiv text="li-1" />
                     <LiDiv text="li-2" />
                     <LiDiv text="li-3" />
                     <LiDiv text="li-4" />
                     <LiDiv text="li-5" />
 
-                    <div className="w-full h-[217px] bg-onda-tech bg-cover bg-[-100px] bg-bluelight md:bg-[-10px] 2xl:bg-[-4px]">
-                        <div className="w-full h-[96%] flex justify-end items-end md:h-[92%] lg:h-[88%]">
-                            <h1 className="font-beyonders text-white text-2xl  md:text-4xl lg:text-5xl lg:pr-[107px] xl:text-[51px]"
-                            >{t("img-text")}</h1>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -33,7 +34,7 @@ export default function Pages() {
                 <BlueDivCenter color="bg-bluedark" textSize="pl-6" completBlue firstText={t("h2")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:px-0 md:pl-0 md:w-[85%] md:flex-col'>
+                                text-justify md:px-0 md:pl-0 md:w-[90%] md:flex-col'>
                     <p className="font-nexa text-[12px] text-black mb-7 md:text-[15px]">
                         <span className="font-conthrax text-[11px] text-bluedark md:text-[13px]">{t("h2-span-1")}</span>
                         {t("h2-p1")}
@@ -54,7 +55,7 @@ export default function Pages() {
             </div>
 
             <div className='w-full my-7 px-6 flex justify-between items-start flex-col text-[14px] font-nexa 
-                                text-justify md:pl-0 md:px-0 md:space-x-10 md:w-[85%] md:flex-row'>
+                                text-justify md:pl-0 md:px-0 md:space-x-10 md:w-[90%] md:flex-row'>
                 <div className="w-full md:mb-0 md:w-[50%]">
                     <p className="mb-7">{t("p1")}</p>
                     <p className="mb-7">{t("p2")}</p>
@@ -71,7 +72,7 @@ export default function Pages() {
             </div>
 
             <div className="w-full flex justify-center flex-col items-center">
-                <BlueDiv textSize="md:ml-6" completBlue firstText={t("h3")} aboutStyle="hidden" />
+                <BlueDiv textSize="" completBlue firstText={t("h3")} aboutStyle="hidden" />
 
                 <div className='w-full h-full flex justify-center items-center bg-gray-50'>
                     <div className="w-full h-full flex items-center justify-center flex-col 

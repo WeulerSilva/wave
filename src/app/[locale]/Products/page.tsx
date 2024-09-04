@@ -76,7 +76,7 @@ export default function Pages() {
             <div className="w-full mt-10 flex justify-center flex-col items-center">
                 <BlueDiv textSize="xl:pl-14" completBlue firstText={t("div-h")} aboutStyle='hidden' />
 
-                <div className='w-full mt-7 px-6 my-4 mb-9 md:pl-0 md:w-[85%]'>
+                <div className='w-full mt-7 px-6 my-4 mb-9 md:pl-0 md:w-[90%] md:px-0'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center lg:grid-cols-3">
                         <ProductDiv img="bg-p-1" firstText={t("div-1")} />
                         <ProductDiv img="bg-p-2" firstText={t("div-2")} />
@@ -117,10 +117,10 @@ export default function Pages() {
             </div>
 
             <div className="w-full mt-5 flex justify-center flex-col items-center bg-sky bg-cover bg-center">
-                <BlueDiv textSize="xl:pl-14" firstText="Surf Place" aboutStyle='hidden' />
+                <BlueDiv textSize="md:pl-4 lg:pl-6 xl:pl-8" firstText="Surf Place" aboutStyle='hidden' />
 
                 <div className='w-full h-[435px] relative md:w-[85%] md:h-[230px]'>
-                    <div className="w-[165px] h-[150px] bg-coqueiro bg-cover bg-center absolute bottom-[-1px] 
+                    <div className="w-[165px] h-[150px] bg-coqueiro bg-cover bg-center absolute bottom-0 
                          right-0 md:w-[265px] md:h-[250px] xl:w-[325px] xl:h-[300px] md:right-[-50px] 2xl:right-6"></div>
 
                     <div className="w-full h-full flex justify-start items-center flex-col 

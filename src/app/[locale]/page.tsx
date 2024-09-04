@@ -14,7 +14,7 @@ export default function HomePage() {
       <section>
         <div className='w-screen h-screen flex justify-center mb-4'>
           
-          <video className="w-screen h-full object-cover"
+          <video className="w-screen h-[94%] object-cover md:h-full"
             src="/images/onda.mp4"
             loop
             autoPlay
@@ -48,7 +48,7 @@ export default function HomePage() {
               <h6 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>
                 {t('about')}
               </h6>
-              <AboutSpan link='/About' style='bg-bluedark text-white' />
+              <AboutSpan link='/About' style='bg-bluedark text-white mr-6 md:mr-0' />
             </div>
             <p className='mt-10 px-6 text-bluedark text-justify font-nexa md:text-[15px] md:px-0 md:mt-6'>
               {t('video-p')}
