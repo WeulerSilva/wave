@@ -18,7 +18,8 @@ export default function HomePage() {
             src="/images/onda.mp4"
             loop
             autoPlay
-            muted />
+            muted 
+            playsInline/>
   
         </div>
         <div className='w-screen h-[450px] flex justify-center'>
@@ -61,6 +62,7 @@ export default function HomePage() {
               loop
               autoPlay
               muted
+              playsInline
             />
           </div>
         </div>
