@@ -40,8 +40,8 @@ const config: Config = {
         "cae-logo": "url('/images/cae-logo.webp')",
         "unity-logo": "url('/images/unity-logo.webp')",
         "wb-logo": "url('/images/wb-logo.webp')",
-        "planta-1": "url('/images/planta-1.jpg')",
-        "planta-2": "url('/images/planta-2.jpg')",
+        "planta-1": "url('/images/pisc-64.png')",
+        "planta-2": "url('/images/pisc-32.png')",
         "gota": "url('/images/gota2.webp')",
         "gotinha": "url('/images/gotinha1.webp')",
         "mar-blog": "url('/images/mar-blog.webp')",
@@ -57,6 +57,7 @@ const config: Config = {
         "coqueiro": "url('/images/coqueiro2.webp')",
         "surf": "url('/images/surf-logo.webp')",
         "laptop": "url('/images/laptop.webp')",
+        "suste": "url('https://cdn.pixabay.com/photo/2022/08/17/05/05/ferns-7391561_640.jpg')"
       },
       colors: {
         "bluedark" : "#002D3A",

@@ -23,7 +23,7 @@ export default function HomePage() {
   
         </div>
         <div className='w-screen h-[450px] flex justify-center'>
-          <div className='w-full h-full flex flex-col-reverse bg-onda bg-cover bg-[-240px] md:flex-row md:bg-center md:w-[90%]'>
+          <div className='w-full h-full flex flex-col-reverse bg-onda bg-cover bg-[-240px] md:flex-row md:bg-center'>
             <div className='w-[50%] h-full flex items-end justify-start'>
               <p className='font-beyonders ml-8 mb-8 text-2xl text-white font-bold uppercase md:text-3xl xl:text-4xl'>
                 <span className='leading-[1.6]'>{t('image-first')}<br />{t('image-sec')}<br />{t('image-third')}</span>
@@ -93,7 +93,7 @@ export default function HomePage() {
 
       <div className='w-screen h-[210px] flex justify-center items-center bg-bluelight bg-mar-360 bg-cover bg-no-repeat bg-[-950px] md:bg-[-300px] xl:bg-center'>
         <div className='w-[90%] h-full md:w-[90%]'>
-          <div className='w-full h-full bg-360 bg-center bg-contain bg-no-repeat md:w-[480px]'></div>
+          <div className='w-full h-full bg-center bg-contain bg-no-repeat md:w-[480px]'></div>
         </div>
       </div>
 
@@ -129,16 +129,17 @@ export default function HomePage() {
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv textSize='text-[9px] md:text-[14px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0 md:text-[10px]' link='/Sustainability' />
 
-        <div className='w-full h-[400px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] md:flex-row xl:space-x-16 2xl:space-x-[100px]'>
-          <div className='w-full md:w-[50%]'>
+        <div className='w-full h-[200px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] xl:space-x-16 xl:h-[100px] 2xl:space-x-[100px]'>
+          <div className='w-full'>
             <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0 lg:pt-5'>
               {t("r-s-p")}
             </p>
           </div>
-          <div className='w-full h-full bg-tartaruga bg-cover bg-center md:w-[50%]'></div>
+          <div className='hidden w-full h-full bg-cover bg-center md:relative md:w-[50%]'></div>
         </div>
       </section>
 
+{/* remover blog por enquanto
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv firstText='Blog' aboutStyle='hidden' />
 
@@ -150,7 +151,7 @@ export default function HomePage() {
 
         <AboutSpan link='/Blog' text={t("blog-button")} style='bg-bluedark text-white p-1 mt-4 mb-6' />
       </section>
-
+*/}
       <section className='w-screen flex flex-col justify-center items-center relative mt-4'>
         <div className='w-full h-[56px] bg-[linear-gradient(to_right,#36A9E1_60%,white_95%)]  flex justify-center items-center'>
           <div className='w-full flex justify-start items-center md:w-[90%]'>

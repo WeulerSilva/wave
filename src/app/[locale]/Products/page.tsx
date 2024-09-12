@@ -91,6 +91,17 @@ export default function Pages() {
             </div>
 
             <div className="w-full flex justify-center flex-col items-center">
+                <BlueDivCenter completBlue color="bg-bluelight" firstText={t("new")} aboutStyle='hidden' />
+
+                <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
+                                text-black text-justify md:pl-0 md:w-[85%] md:text-base lg:text-lg'>
+                    <li className="w-full mb-3 md:mb-0">{t('new-1')}</li>
+
+                    <li className="w-full list-disc md:mt-3">{t("new-2")}</li>
+                </div>
+            </div>
+
+            <div className="w-full flex justify-center flex-col items-center">
                 <BlueDivCenter completBlue color="bg-bluelight" firstText={t("h2")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 

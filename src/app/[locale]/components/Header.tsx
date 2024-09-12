@@ -18,7 +18,6 @@ export default function Header() {
         { key: 'Products', href: '/Products' },
         { key: 'Market', href: '/Market' },
         { key: 'Sustainability', href: '/Sustainability' },
-        { key: 'Blog', href: '/Blog' },
         { key: 'Contact', href: '/Contact' }
     ];
 
