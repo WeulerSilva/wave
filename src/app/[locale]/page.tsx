@@ -1,8 +1,6 @@
 import { useTranslations } from 'next-intl';
-import { MediaMentionsLogos } from './components/MediaMentionsLogos';
 import { AboutSpan } from './components/AboutSpan';
 import { BlueDiv } from './components/BlueDiv';
-import { BlogDiv } from './components/BlogDiv';
 
 
 export default function HomePage() {
@@ -167,7 +165,7 @@ export default function HomePage() {
           <div className='w-full h-full bg-soon-1 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-2 bg-cover bg-no-repeat bg-center'></div>
           <div className='w-full h-full bg-soon-3 bg-cover bg-no-repeat bg-center flex justify-center items-center'>
-            {/*<span className='text-white font-conthrax text-2xl uppercase'>{t("soon-first")}<br />{t("soon-two")}</span>*/}</div>
+            <span className='text-white font-conthrax uppercase text-2xl md:text-2xl 2xl:text-4xl'>{t("soon-first")}<br />{t("soon-two")}</span></div>
         </div>
 
         <div className='bg-[#CDCCCC] w-screen flex justify-center items-center flex-col mb-1'>
