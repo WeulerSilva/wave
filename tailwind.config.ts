@@ -23,7 +23,7 @@ const config: Config = {
         "tartaruga": "url('/images/tartaruga.webp')",
         "soon-1": "url('/images/1.png')",
         "soon-2": "url('/images/2.png')",
-        "soon-3": "url('/images/soon-3.jpg')",
+        "soon-3": "url('/images/3.png')",
         "mar-360": "url('/images/mar-360.webp')",
         "360": "url('/images/360.webp')",
         "about-1": "url('/images/about-1.webp')",
