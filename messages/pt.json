@@ -213,5 +213,33 @@
         "social": "Redes Sociais:",
         "back": "Voltar para a pagina inicial:",
         "ok-back": "Voltar"
+    },
+    "politics": {
+        "p1-name-1": "Política de",
+        "p1-name-2": "Privacidade",
+        "p1-1": "Na Waveseg, respeitamos sua privacidade e estamos comprometidos em proteger suas informações pessoais. Esta Política de Privacidade descreve como coletamos, usamos, divulgamos e protegemos suas informações quando você utiliza nosso site ou serviços.",
+        "p1-2": "Coleta de Informações:",
+        "p1-3": "Coletamos informações que você nos fornece diretamente, como nome, e-mail, telefone, e outras informações ao se cadastrar ou utilizar nossos serviços. Também podemos coletar informações automaticamente, como dados de navegação, endereço IP e cookies.",
+        "p1-4": "Uso das Informações:",
+        "p1-5": "Utilizamos suas informações para fornecer nossos serviços, processar transações, melhorar sua experiência no site e enviar comunicações de marketing, quando permitido.",
+        "p1-name-3": "Cookies",
+        "p1-6": "Compartilhamento de Informações:",
+        "p1-7": "Suas informações pessoais não serão vendidas ou compartilhadas com terceiros, exceto para o cumprimento de obrigações legais ou para fornecer os serviços solicitados.",
+        "p1-name-4": "Segurança:",
+        "p1-8": "Implementamos medidas de segurança apropriadas para proteger suas informações contra acessos não autorizados, perdas ou alterações.",
+        "p1-9": "Seus Direitos:",
+        "p1-10": "Você pode acessar, corrigir ou excluir suas informações pessoais a qualquer momento, entrando em contato conosco pelos nossos canais de atendimento.",
+        "p1-11": "Alterações na Política:",
+        "p1-12": "Reservamo-nos o direito de modificar esta Política de Privacidade a qualquer momento. As alterações serão publicadas no site.",
+        "p1-13": "",
+        "t1-name-1": "Termos de Uso entre",
+        "t1-name-2": "ANK & ILUMER",
+        "t1-name-3": "e o Usuário",
+        "t1-1": "A rede de sites da ANK & ILUMER é composta por diversos websites e páginas, geridos pela ANK & ILUMER ou suas afiliadas. O uso desses sites implica na aceitação inalterada dos termos, condições e avisos aqui presentes. Utilizar os sites da ANK & ILUMER indica concordância com todos os termos e condições. O uso de sites específicos da rede ANK & ILUMER pode estar sujeito a termos adicionais encontrados nesses próprios sites. Em caso de conflito, os termos específicos do site prevalecerão.",
+        "t1-2": "A ANK & ILUMER reserva-se o direito de alterar os termos, condições e avisos sob os quais seus sites são oferecidos, incluindo taxas associadas ao uso dos sites. É responsabilidade do usuário revisar regularmente esses termos.",
+        "t1-3": "Os sites da ANK & ILUMER são para uso pessoal e não comercial. Não é permitido alterar, copiar, distribuir, transmitir, exibir, reproduzir, publicar, licenciar, criar trabalhos derivados, transferir ou vender qualquer informação, software, produtos ou serviços obtidos a partir desses sites sem prévia autorização por escrito. Assédio e personificação de outros são proibidos. Não é permitido carregar conteúdo ilegal, abusivo ou censurável. O uso do site para solicitações comerciais também é proibido.",
+        "t1-4": "Os sites podem conter links para sites externos geridos por terceiros. ANK & ILUMER não controla esses sites e não é responsável por suas práticas de privacidade ou conteúdo. A utilização desses links é por conta e risco do usuário.",
+        "t1-5": "A ANK & ILUMER não oferece garantias sobre a precisão ou integridade do conteúdo dos sites. O site e os materiais são fornecidos 'no estado em que se encontram' e sem garantias expressas ou implícitas. A responsabilidade da ANK & ILUMER por quaisquer danos decorrentes do uso dos sites é limitada na máxima extensão permitida pela lei.",
+        "": ""
     }
 }
