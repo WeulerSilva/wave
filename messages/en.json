@@ -2,7 +2,7 @@
     "HomePage": {
         "title": "Hello world!",
         "about": "about",
-        "products": "Products",
+        "products": "Products and",
         "services": "Services",
         "image-first": "The Sea",
         "image-sec": "Is our",
@@ -19,7 +19,7 @@
         "services-three": "Competitiveness and Possibilities.",
         "market": "Transform your vision into reality with Waveseg®, where innovation meets sustainability.",
         "r-s-c": "SUSTAINABILITY AND SOCIAL RESPONSIBILITY",
-        "r-s-p": "At Waveseg®, sustainability is the cornerstone of every stage in the development of our attractions. Our commitment to sustainable practices is reflected in every aspect of the project, from conception to operation, ensuring that each attraction is a benchmark of environmental responsibility.",
+        "r-s-p": "At Waveseg®, sustainability is the cornerstone of every stage in the development of our attractions. Our commitment to sustainable practices is reflected in every aspect of the project, from conception to operation; ensuring that each attraction is a benchmark of environmental responsibility.",
         "blog-call": "Post call",
         "blog-go": "Read full article",
         "blog-button": "view all posts",
@@ -29,7 +29,7 @@
         "form-one": "transform your idea into reality.",
         "form-two": "Fill out the form to request an analysis of your project.",
         "form-go": "Go to the form",
-        "desc": "2024 Waveseg by South Entertainment. All rights reserved. Developed by WBusiness"
+        "desc": "2024 Waveseg by South Entertainment Group. All rights reserved. Developed by WBusiness"
     },
     "header": {
         "Home": "Home",
@@ -64,7 +64,7 @@
     "about": {
         "img-text": "REAL SURF",
         "h1": "trajectory ",
-        "p1": "Since its beginnings in 2012, South Entertainment Group (SEG), has been dedicated to developing innovative technologies for the creation of surfing wave pools. Combining love and innovation for the surf, our journey began with the introduction of a static wave technology in Argentina in 2013; marking our first step towards revolutionizing surfing-related entertainment in pools.",
+        "p1": "Since its beginnings in 2012, South Entertainment Group (SEG), has been dedicated to developing innovative technologies for the creation of surfing wave pools. Uniting passion and innovation for surfing., our journey began with the introduction of a static wave technology in Argentina in 2013; marking our first step towards revolutionizing surfing-related entertainment in pools.",
         "p2": "Our goal was always beyond simply offering a new form of entertainment; determined to recreate the authentic sensation of surfing in the sea, we identified compressed air as the dynamic solution we were looking for. Between 2014 and 2021, we dedicated ourselves to the development of our own propulsion system. That period was marked by intense research and development, which included the construction of prototypes, a full-scale part of the machine and the obtaining of our first patent at the INPI of Argentina. Despite the success and dynamism provided by this system, we faced challenges related to the high costs of implementation, maintenance and energy consumption; These obstacles led us to seek more sustainable and innovative solutions.",
         "p3": "Focused on innovation and reducing environmental impact, we developed a truly eco-friendly surf wave generating system. Our goal is to minimize infrastructure and machinery, using a 100% natural water filtration method, providing a highly competitive implementation and operation cost.",
         "p4": "In 2023, we reached a significant milestone by registering our first patent at the INPI of Brazil with our Waveseg® technology.",
@@ -158,7 +158,7 @@
         "h1": "SUSTAINABILITY AS A FUNDAMENTAL PILLAR",
         "p1": "Low Visual and Noise Impact: We prioritize harmony with the environment, ensuring that our attractions complement the landscape without causing significant visual or noise impact. This is achieved through careful and customizable design that seamlessly integrates with the surroundings.",
         "p2": "Natural Filtration: We adopt 100% natural water filtration systems, such as the use of minerals that purify water without harmful chemicals. This approach not only maintains water quality at high standards but also minimizes the environmental impact of pool maintenance.",
-        "p3": "Efficient Wave Propulsion: The core of our attractions lies in the innovative wave propulsion system powered by green hydrogen. This method presents extremely low energy consumption and produces no waste, standing out as an eco-efficient solution for wave generation.",
+        "p3": "Efficient Wave Propulsion: The core of our attractions lies in the innovative wave propulsion system powered by hydrogen. This method presents extremely low energy consumption and produces no waste, standing out as an eco-efficient solution for wave generation.",
         "p4": "Reduction of Machinery and Integration with Nature: Our focus on reducing machinery and performing works that integrate with the local nature contributes to low interference with the ecosystem. This principle guides site selection, project design, and construction techniques, aiming at environmental preservation.",
         "p5": "Selection of Low Environmental Impact Materials: The careful choice of construction materials is essential for our projects. We opt for sustainable, recyclable, or low environmental impact materials, contributing to the reduction of the ecological footprint of the attractions.",
         "p6": "Water Quality and Diversity of Sources: Waveseg® pools are designed to operate with water from various sources, including rainwater harvesting, artesian wells, public networks, and even seawater, rivers, or nearby lagoons. This versatile system not only allows greater adaptability to the specific environment of each project but also emphasizes our commitment to the sustainable use of water resources. We ensure that each attraction is an example of innovation, sustainability, safety, and feasibility, harmonizing with the environment and contributing to a more sustainable future.",
@@ -167,7 +167,7 @@
         "l2": "Eco-Conscious Technology:",
         "lp2": "Our technologies are carefully designed to minimize environmental and visual impact. We protect surrounding ecosystems by integrating innovative natural systems.",
         "l3": "Sustainable Propulsion:",
-        "lp3": "Our green hydrogen-powered propulsion system is the backbone of our eco-efficiency."
+        "lp3": "Our hydrogen-powered propulsion system is the backbone of our eco-efficiency."
     },
     "blog": {
         "h1": "Discover the latest and most innovative trends in sustainability, technology, and eco-friendly markets in the surfing world.",

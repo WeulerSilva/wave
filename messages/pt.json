@@ -9,7 +9,7 @@
     "HomePage": {
         "title": "Olá mundo!",
         "about": "Sobre",
-        "products": "Produtos",
+        "products": "Produtos e",
         "services": "Serviços",
         "image-first": "O Mar",
         "image-sec": "É a nossa",
@@ -19,14 +19,14 @@
         "video-span": "Saiba mais",
         "midia-h1": "Menções na Mídia",
         "midia-p": "A Waveseg tem se destacado na mídia por suas tecnologias inovadoras e sustentáveis para piscinas de ondas, sendo reconhecida por democratizar o surf em locais sem acesso ao mar e por seu compromisso com a sustentabilidade. A empresa é vista como líder em entretenimento aquático, atraindo interesse de investidores e fãs de surf.",
-        "more-one": "Tecnologia totalmente modular, podendo adaptar-se ao tamanho de cada empreendimento.",
+        "more-one": "Nossa tecnologia destaca-se por oferecer um APEX & OPEX altamente competitivo",
         "cameras": "Câmaras",
         "services-one": "Adaptação a Diversos Ambientes.",
         "services-two": "Tecnologia Avançada e Criatividade.",
         "services-three": "Competitividade e Possibilidades.",
         "market": "Transforme sua visão em realidade com a Waveseg®, onde a inovação encontra a sustentabilidade",
         "r-s-c": "SUSTENTABILIDADE E RESPONSABILIDADE",
-        "r-s-p": "Na Waveseg®, a sustentabilidade é o pilar fundamental em todas as fases de desenvolvimento das nossas atrações. Nosso compromisso com práticas sustentáveis reflete-se em todos os aspectos do projeto, desde a concepção até a operação, garantindo que cada atração seja um marco de responsabilidade ambiental.",
+        "r-s-p": "Na Waveseg®, a sustentabilidade é o pilar fundamental em todas as fases de desenvolvimento das nossas atrações. Nosso compromisso com práticas sustentáveis reflete-se em todos os aspectos do projeto, desde a concepção até a operação; garantindo que cada atração seja um marco de responsabilidade ambiental.",
         "blog-call": "Chamada da publicação",
         "blog-go": "Ver materia completa",
         "blog-button": "ver todas as publicações",
@@ -36,7 +36,7 @@
         "form-one": "transforme sua ideia em realidade.",
         "form-two": "Preencha o formulário para solicitar uma análise do seu projeto.",
         "form-go": "Ir para o formulário",
-        "desc": "2024 Waveseg by South Entertainment. Todos os direitos reservados. Desenvolvido por WBusiness"
+        "desc": "2024 Waveseg by South Entertainment Group. Todos os direitos reservados. Desenvolvido por WBusiness"
     },
     "header": {
         "Home": "Início",
@@ -51,9 +51,9 @@
     "market": {
         "h1": "Transforme Seu Empreendimento com a Waveseg",
         "h2": "INVESTIMENTO INTELIGENTE",
-        "p1": "A Waveseg® se posiciona na vanguarda do mercado de surf em piscinas eco-friendly. Nossa expertise em criar piscinas de ondas para surf abre um leque de oportunidades para diversos tipos de clientes, incluindo investidores, incorporadores imobiliários, condomínios, shopping center, prefeituras, parques aquáticos, parques de esportes radicais, clubes ou academias, etc. Ao ser uma tecnologia modular, temos a versatilidade de poder atender todo tipo de empreendimento; dos mais simples aos mais luxuosos. Nossas atrações são altamente personalizáveis, perfeitas tanto para o entretenimento de usuários iniciantes quanto para treinamentos de profissionais do surf.",
+        "p1": "A Waveseg®, se posiciona na vanguarda do mercado de surf em piscinas eco-friendly. Nossa expertise em criar piscinas de ondas para surf abre um leque de oportunidades para diversos tipos de clientes, incluindo investidores, incorporadores imobiliários, condomínios, shopping center, prefeituras, parques aquáticos, parques de esportes radicais, clubes ou academias, etc. Ao ser uma tecnologia modular, temos a versatilidade de poder atender todo tipo de empreendimento; dos mais simples aos mais luxuosos. Nossas atrações são altamente personalizáveis, perfeitas tanto para o entretenimento de usuários iniciantes quanto para treinamentos de profissionais do surf.",
         "p2": "A presença de uma piscina de ondas da Waveseg® eleva seu projeto a outro patamar e o distingue significativamente no mercado. Com uma demanda crescente por experiências autênticas de surf em piscinas, e uma oferta reduzida de atrações inovadoras, investir em nossa tecnologia é uma decisão estratégica que assegura alta rentabilidade e exclusividade. ",
-        "p3": "Nossas soluções destacam-se por serem sustentáveis, eficientes e adaptáveis, garantindo que seu empreendimento se destaque em seu setor. Com os diferenciais das atrações Waveseg®, você não só atenderá a uma demanda existente, mas também criará uma nova, atraindo um público diversificado e entusiasta.",
+        "p3": "Nossas soluções destacam-se por serem sustentáveis, eficientes e adaptáveis, garantindo que seu empreendimento se destaque em seu setor. Com os diferenciais das atrações Waveseg®, você não só atenderá a uma demanda existente, mas também criará uma nova; atraindo um público diversificado e entusiasta.",
         "p4": "Convidamos você a iniciar uma conversa conosco e descobrir como a Waveseg® pode ajudar a transformar seu projeto em um ícone de inovação e sucesso. Junte-se a nós para explorar o potencial ilimitado do surf em piscinas e posicionar seu empreendimento como líder em um mercado em expansão. Entre em contato para uma consulta inicial e veja de perto quem somos e como podemos elevar seu projeto a um novo patamar.",
         "m-h-1": "Retorno Sólido sobre o Investimento (ROI):",
         "m-p-1": "Garantia de retorno financeiro expressivo, com custos iniciais e operacionais otimizados, garantindo um rapido retorno de seus ganhos.",
@@ -71,7 +71,7 @@
     "about": {
         "img-text": "surf de verdade",
         "h1": "trajetória",
-        "p1": "Desde a sua fundação em 2012, a South Entertainment Group (SEG), tem se dedicado ao desenvolvimento de tecnologias inovadoras para a criação de piscinas de ondas para surf. Combinando amor e inovação pelo surf, nossa jornada começou com a introdução de uma tecnologia de ondas estáticas na Argentina em 2013; marcando nosso primeiro passo em direção a revolução do entretenimento relacionado ao surf. ",
+        "p1": "Desde a sua fundação em 2012, a South Entertainment Group (SEG), tem se dedicado ao desenvolvimento de tecnologias inovadoras para a criação de piscinas de ondas para surf. Unindo paixão e inovação pelo surf, nossa trajetória começou com a introdução de uma tecnologia de ondas estáticas na Argentina em 2013; marcando nosso primeiro passo em direção a revolução do entretenimento relacionado ao surf. ",
         "p2": "Nosso objetivo sempre foi além de simplesmente oferecer uma nova forma de entretenimento. Determinados a recriar a sensação autêntica do surf no mar, identificamos no ar comprimido a solução dinâmica que procurávamos. Entre os anos de 2014 e 2021, nos dedicamos ao desenvolvimento do nosso próprio sistema de propulsão. Esse período foi marcado por intensa pesquisa e desenvolvimento, que incluiu a construção de protótipos, uma parte da máquina em escala real e a obtenção de nossa primeira patente junto ao INPI da Argentina. Apesar do sucesso e do dinamismo oferecido por este sistema, enfrentamos desafios relacionados aos altos custos de implementação, manutenção e consumo energético; esses obstáculos nos levaram a buscar soluções mais sustentáveis e inovadoras.",
         "p3": "Focados em inovação e na redução do impacto ambiental, desenvolvemos um sistema gerador de ondas para surf verdadeiramente ecológico. Nosso objetivo é minimizar a infraestrutura e a maquinaria, utilizando um método de filtragem de água 100% natural, oferecendo um custo de implantação e operação altamente competitivo.",
         "p4": "Em 2023, alcançamos um marco significativo ao registrar nossa primeira patente no INPI do Brasil com nossa tecnologia Waveseg®.",
@@ -92,7 +92,7 @@
         "img-text": "automação",
         "h2": "Sistema otimizado para oferecer ondas consistentes e seguras",
         "h2-span-1": "Flexibilidade de programação",
-        "h2-p1": " de ondas de diversos tipos de acordo com a escolha e perfil dos usuários.",
+        "h2-p1": " de ondas de diversos tipos, de acordo com a escolha e perfil dos usuários.",
         "h2-span-2": "Sessões de surf padronizada,",
         "h2-p2": " os modelos de ondas estão pré-definidos, o usuário escolhe a sessão",
         "h2-span-3": " conforme seu grau de experiência.",
@@ -165,7 +165,7 @@
         "h1": "SUSTENTABILIDADE COMO PILAR FUNDAMENTAL",
         "p1": "Baixo Impacto Visual e Sonoro: Priorizamos a harmonia com o meio-ambiente, assegurando que nossas atrações completem a paisagem sem causar impacto visual ou sonoro significativo. Isso é alcançado através de um design cuidadoso e personalizável que se integra suavemente ao entorno.",
         "p2": "Filtragem Natural: Adotamos sistemas de filtragem de água 100% naturais, como o uso de minerais que purificam a água sem o uso de produtos químicos nocivos. Essa abordagem não só mantém a qualidade da água em padrões elevados; mas também minimiza o impacto ambiental da manutenção da piscina.",
-        "p3": "Propulsão de Ondas Eficiente: O centro de nossas atrações reside no sistema inovador de propulsão das ondas mediante hidrogeno verde. Esse método apresenta um consumo energético extremamente baixo e não produz resíduos, destacando-se como uma solução eco-eficiente para a geração das ondas.",
+        "p3": "Propulsão de Ondas Eficiente: O centro de nossas atrações reside no sistema inovador de propulsão das ondas mediante hidrogeno. Esse método apresenta um consumo energético extremamente baixo e não produz resíduos, destacando-se como uma solução eco-eficiente para a geração das ondas.",
         "p4": "Redução de Maquinário e Integração com a Natureza: Nosso enfoque na redução de maquinário e na realização de obras que se integram com a natureza do local, contribui para uma baixa interferência no ecossistema. Esse princípio orienta a seleção do local, o design do projeto e as técnicas de construção, visando a preservação ambiental.",
         "p5": "Seleção de Materiais de Baixo Impacto Ambiental: A escolha cuidadosa de materiais de construção é essencial para nossos projetos. Optamos por materiais sustentáveis, recicláveis ou de baixo impacto ambiental, contribuindo para a redução da pegada ecológica das atrações.",
         "p6": "Qualidade da Água e Diversidade de Fontes: As piscinas Waveseg® são projetadas para operar com água de diversas fontes, incluindo coleta de chuva, poços artesianos, redes públicas, e até mesmo água do mar, rios ou lagoas próximas. Esse sistema versátil não só permite uma maior adaptabilidade ao ambiente específico de cada projeto, mas também enfatiza nosso compromisso com o uso sustentável dos recursos hídricos. Asseguramos que cada atração seja um exemplo de inovação, sustentabilidade, segurança e viabilidade, harmonizando-se com o meio ambiente e contribuindo para um futuro mais sustentável.",
@@ -174,7 +174,7 @@
         "l2": "Tecnologia Eco-Consciente:",
         "lp2": "Nossas tecnologias são cuidadosamente projetadas para minimizar o impacto ambiental e visual. Protegemos os ecossistemas circundantes com a integração de sistemas naturais inovadores.",
         "l3": "Propulsão Sustentável:",
-        "lp3": "Nosso Sistema de Propulção mediante hidrogênio verde é a espinha dorsal da nossa ecoeficiência."
+        "lp3": "Nosso Sistema de Propulção mediante hidrogênio é a espinha dorsal da nossa ecoeficiência."
     },
     "blog": {
         "h1": "Descubra as tendências mais recentes e inovadoras em sustentabilidade, tecnologia e mercados eco-friendly no mundo do surf.",

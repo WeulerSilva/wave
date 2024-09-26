@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import { BlueDiv } from "../components/BlueDiv";
 import { BlueDivCenter } from "../components/BlueDivCenter";
-import { CircleDiv } from "../components/CircleDiv";
 import { ProductDiv } from "../components/ProductDiv";
 
 export default function Pages() {
@@ -14,7 +13,7 @@ export default function Pages() {
 
                 <div className='text-bluedark w-full h-full flex justify-center items-center flex-col text-[15px] font-nexa 
                                 text-justify md:pl-0 md:w-[95%]'>
-                    <h1 className="mt-2 mb-16 font-conthrax text-[14px] text-center 2xl:text-lg">
+                    <h1 className="mt-2 mb-16 font-conthrax text-[14px] text-center lg:text-xl uppercase">
                         {t("h6")}
                     </h1>
 

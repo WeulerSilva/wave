@@ -88,13 +88,13 @@ export default function HomePage() {
       </section>
       */}
 
-
+        {/*
       <div className='w-screen h-[210px] flex justify-center items-center bg-bluelight bg-mar-360 bg-cover bg-no-repeat bg-[-950px] md:bg-[-300px] xl:bg-center'>
         <div className='w-[90%] h-full md:w-[90%]'>
           <div className='w-full h-full bg-center bg-contain bg-no-repeat md:w-[480px]'></div>
         </div>
       </div>
-
+          */}
       <section className='w-screen bg-bluedark flex justify-center'>
         <div className='w-[90%] flex flex-col justify-center items-center py-16 lg:flex-row lg:justify-between'>
           <div className='flex justify-start items-center text-center flex-col h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[25%]'>
@@ -103,16 +103,11 @@ export default function HomePage() {
             <p className='text-gray-400 font-nexa'>{t('more-one')}</p>
           </div>
 
-          <div className='flex justify-start items-center flex-col text-center h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[18%]'>
-            <AboutSpan link='/Products' style='bg-bluelight text-bluedark' />
-            <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{t('products')}</h6>
-            <p className='text-gray-400 font-nexa'>WS-1.64 - 64 {t('cameras')}.<br />WS-1.32 - 32 {t('cameras')}.</p>
-          </div>
-
           <div className='flex justify-start items-center flex-col text-center h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[25%]'>
             <AboutSpan link='/Products' style='bg-bluelight text-bluedark' />
-            <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{t('services')}</h6>
+            <h6 className='font-conthrax text-[14px] text-white mt-2 lg:mt-5'>{t('products')} {t('services')}</h6>
             <p className='text-gray-400 font-nexa'>{t('services-one')}<br />{t('services-two')}<br />{t('services-three')}</p>
+            <p className='text-gray-400 font-nexa'>WS-1.64 - 64 {t('cameras')}.<br />WS-1.32 - 32 {t('cameras')}.</p>
           </div>
 
           <div className='flex justify-start items-center flex-col text-center h-full w-[80%] md:w-[50%] lg:w-[25%]'>
