@@ -85,6 +85,8 @@ export default function Pages() {
                         <ProductDiv img="bg-p-6" firstText={t("div-6")} />
                         <ProductDiv img="bg-p-7" firstText={t("div-7")} />
                         <ProductDiv img="bg-p-8" firstText={t("div-8")} />
+                        <ProductDiv img="bg-p-9" firstText={t("div-9")} />
+                        <ProductDiv img="bg-p-10" firstText={t("div-10")} />
                     </div>
                 </div>
             </div>

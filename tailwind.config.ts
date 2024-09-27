@@ -53,11 +53,13 @@ const config: Config = {
         "p-6": "url('/images/p-6.webp')",
         "p-7": "url('/images/p-7.webp')",
         "p-8": "url('/images/p-8.webp')",
+        "p-9": "url('/images/p-9.png')",
+        "p-10": "url('/images/p-10.png')",
         "sky": "url('/images/product-sky.webp')",
         "coqueiro": "url('/images/coqueiro2.webp')",
         "surf": "url('/images/surf-logo.webp')",
         "laptop": "url('/images/laptop.webp')",
-        "suste": "url('https://cdn.pixabay.com/photo/2022/08/17/05/05/ferns-7391561_640.jpg')"
+        "suste": "url('/images/suste.jpg')"
       },
       colors: {
         "bluedark" : "#002D3A",
