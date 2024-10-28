@@ -12,8 +12,8 @@ export default function HomePage() {
       <section>
         <div className='w-screen h-screen flex justify-center mb-4'>
           
-          <video className="w-screen h-[94%] object-cover md:h-full"
-            src="/images/onda.mp4"
+          <video className="w-screen h-[94%] object-cover md:h-[85%] md:object-fill"
+            src="/images/wave.mov"
             loop
             autoPlay
             muted 
