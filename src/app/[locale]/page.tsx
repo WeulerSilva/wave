@@ -10,15 +10,22 @@ export default function HomePage() {
   return (
     <>
       <section>
-        <div className='w-screen h-screen flex justify-center mb-4'>
-          
-          <video className="w-screen h-[94%] object-cover md:h-[85%] md:object-fill"
+        <div className='w-screen h-[70vh] flex justify-center mb-4'>
+
+          <video className="w-screen h-[100%] object-cover md:hidden"
             src="/images/wave.mov"
             loop
             autoPlay
-            muted 
-            playsInline/>
-  
+            muted
+            playsInline />
+
+          <video className="hidden w-screen h-[94%] object-cover md:h-full md:block"
+            src="/images/onda.mp4"
+            loop
+            autoPlay
+            muted
+            playsInline />F
+
         </div>
         <div className='w-screen h-[450px] flex justify-center'>
           <div className='w-full h-full flex flex-col-reverse bg-onda bg-cover bg-[-240px] md:flex-row md:bg-center'>
@@ -88,7 +95,7 @@ export default function HomePage() {
       </section>
       */}
 
-        {/*
+      {/*
       <div className='w-screen h-[210px] flex justify-center items-center bg-bluelight bg-mar-360 bg-cover bg-no-repeat bg-[-950px] md:bg-[-300px] xl:bg-center'>
         <div className='w-[90%] h-full md:w-[90%]'>
           <div className='w-full h-full bg-center bg-contain bg-no-repeat md:w-[480px]'></div>
@@ -132,7 +139,7 @@ export default function HomePage() {
         </div>
       </section>
 
-{/* remover blog por enquanto
+      {/* remover blog por enquanto
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv firstText='Blog' aboutStyle='hidden' />
 
