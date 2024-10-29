@@ -24,7 +24,7 @@ export default function HomePage() {
             loop
             autoPlay
             muted
-            playsInline />F
+            playsInline />
 
         </div>
         <div className='w-screen h-[450px] flex justify-center'>
