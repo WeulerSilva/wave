@@ -12,7 +12,7 @@ export default function Pages() {
                 <div className='w-full h-full flex justify-center items-start bg-prancha-mar bg-cover bg-center md:flex-row 
                     md:bg-center'>
                     <div className="w-full h-[51%] flex justify-center items-end md:h-[50%]">
-                        <h1 className="font-beyonders text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl">{t("img-text")}</h1>
+                        <h1 className="font-beyonders text-white text-lg md:text-4xl lg:text-5xl xl:text-6xl">{t("img-text")}</h1>
                     </div>
                 </div>
             </div>
@@ -24,13 +24,15 @@ export default function Pages() {
                                 text-justify md:pl-0 md:space-x-10 md:w-[90%] md:flex-row'>
                     <div className="w-full mb-7 md:mb-0 md:w-[50%]">
                         <p className="mb-7">{t("p1")}</p>
-                        <p>{t("p2")}</p>
+                        <p className="mb-7">{t("p2")}</p>
+                        <p className="mb-7">{t("p3")}</p>
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <p className="mb-7">{t("p3")}</p>
                         <p>{t("p4")}</p>
-                        <p className="mt-7">{t('p5')}</p>
+                        <p className="mt-7 font-bold">{t('p5')}</p>
+                        <p>{t("p6")}</p>
+                        <p className="font-bold">{t("p7")}</p>
                     </div>
                 </div>
             </div>

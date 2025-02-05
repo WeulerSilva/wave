@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { LiDiv } from "../components/LiDiv";
 
 export default function Pages() {
     const t = useTranslations('sustainability');
@@ -16,18 +17,19 @@ export default function Pages() {
             <div className="w-full flex justify-center flex-col items-center">
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
-                                text-justify md:pl-0 md:space-x-10 md:w-[85%] md:flex-row'>
-                    <div className="w-full mb-7 md:mb-0 md:w-[50%]">
-                        <p className="mb-7">{t("p1")}</p>
-                        <p className="mb-7">{t("p2")}</p>
-                        <p className="mb-7">{t("p3")}</p>
-                        <p className="mb-0 md:mb-7">{t("p4")}</p>
+                                text-justify md:pl-0 md:space-x-10 md:w-[85%]'>
+                    <div className="w-full mb-7 md:mb-0">
+                        <p className="mb-7">{t("p-1")}</p>
+
+                        <LiDiv text={t("l-1")} />
+                        <LiDiv text={t("l-2")} />
+                        <LiDiv text={t("l-3")} />
+                        <LiDiv text={t("l-4")} />
+
+                        <p className="mb-7">{t("p-2")}</p>
+                        
                     </div>
 
-                    <div className="w-full md:w-[50%]">
-                        <p>{t("p5")}</p>
-                        <p className="mt-7">{t('p6')}</p>
-                    </div>
                 </div>
             </div>
 
@@ -41,12 +43,12 @@ export default function Pages() {
 
                     <div className="w-full h-full flex justify-start items-center flex-col text-center px-4
                              md:px-0 md:text-left md:items-start md:w-[65%] lg:w-[70%] xl:w-[60%]">
-                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px] mt-7">{t("l1")}</li>
-                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("lp1")}</p>
-                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]">{t("l2")}</li>
-                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("lp2")}</p>
-                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]">{t("l3")}</li>
-                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("lp3")}</p>
+                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px] mt-7">{t("p-3")}</li>
+                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("p-4")}</p>
+                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>
+                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("p-5")}</p>
+                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>
+                        <p className="text-[13px] font-nexa mb-7 md:text-[14px]"></p>
                     </div>
                 </div>
             </div>

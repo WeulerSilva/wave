@@ -21,16 +21,23 @@ export default function Pages() {
 
                 <div className='w-full mt-7 px-6 flex justify-between items-start flex-col text-[15px] font-nexa 
                                 text-justify md:pl-0 md:px-0 md:w-[90%]'>
-                    <LiDiv text="li-1" />
-                    <LiDiv text="li-2" />
-                    <LiDiv text="li-3" />
-                    <LiDiv text="li-4" />
-                    <LiDiv text="li-5" />
+                    <p className="mb-7">{t("p-1")}</p>
+                    <p className="mb-7">{t("p-2")}</p>
+                    
+                    <LiDiv text={t("li-1")} />
+                    <LiDiv text={t("li-2")} />
+                    <LiDiv text={t("li-3")} />
+                    <LiDiv text={t("li-4")} />
+                    <LiDiv text={t("li-5")} />
+                    <LiDiv text={t("li-6")} />
+
+                    <p className="mb-7">{t("p-3")}</p>
+                    <p className="mb-7">{t("p-4")}</p>
 
                 </div>
             </div>
 
-            <div className="w-full flex justify-center flex-col items-center bg-[#D4E7F3]">
+            <div className="hidden w-full justify-center flex-col items-center bg-[#D4E7F3]">
                 <BlueDivCenter color="bg-bluedark" textSize="pl-6 text-[11px] md:text-[14px]" completBlue firstText={t("h2")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
@@ -54,7 +61,7 @@ export default function Pages() {
                 </div>
             </div>
 
-            <div className='w-full my-7 px-6 flex justify-between items-start flex-col text-[14px] font-nexa 
+            <div className='hidden w-full my-7 px-6 justify-between items-start flex-col text-[14px] font-nexa 
                                 text-justify md:pl-0 md:px-0 md:space-x-10 md:w-[90%] md:flex-row'>
                 <div className="w-full md:mb-0 md:w-[50%]">
                     <p className="mb-7">{t("p1")}</p>

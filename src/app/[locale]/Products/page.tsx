@@ -95,36 +95,21 @@ export default function Pages() {
                 <BlueDivCenter completBlue color="bg-bluelight" firstText={t("new")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
-                                text-black text-justify md:pl-0 md:w-[85%] md:text-base lg:text-lg'>
-                    <li className="w-full mb-3 md:mb-0">{t('new-1')}</li>
+                                text-black text-justify md:pl-0 md:w-[85%] '>
+                    <p className="w-full mb-3 md:mb-0">{t('new-1')}</p>
 
-                    <li className="w-full list-disc md:mt-3">{t("new-2")}</li>
+                    <li className="hidden w-full list-disc md:mt-3">{t("new-2")}</li>
                 </div>
             </div>
 
             <div className="w-full flex justify-center flex-col items-center">
-                <BlueDivCenter completBlue color="bg-bluelight" firstText={t("h2")} aboutStyle='hidden' />
+                <BlueDivCenter completBlue color="bg-bluelight" textSize="text-[12px] text-center" firstText={t("h2")} aboutStyle='hidden' />
 
-                <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
-                                text-black text-justify md:pl-0 md:w-[85%]'>
-                    <p className="w-full mb-7">{t('p1')}</p>
+                <div className='flex w-full mt-7 px-6 my-4 justify-between items-start flex-col text-[14px] font-nexa 
+                                text-black text-justify md:pl-0 md:w-[85%] '>
+                    <p className="mb-7">{t("p-1")}</p>
+                    <p>{t("p-2")}</p>
 
-                    <div className="w-full h-full flex justify-center items-start flex-col md:flex-row md:space-x-[92px]">
-                        <div className="w-full list-none md:w-[50%]">
-                            <li className="text-[14px] font-conthrax text-bluedark">{t("l1")}</li>
-                            <p className="mb-7">{t("lp1")}</p>
-                            <li className="text-[14px] font-conthrax text-bluedark">{t("l2")}</li>
-                            <p className="mb-7">{t("lp2")}</p>
-                        </div>
-
-                        <div className="flex justify-center items-start flex-col w-full list-none md:w-[50%]">
-                            <li className="text-[14spx] font-conthrax text-bluedark">{t("l3")}</li>
-                            <p className="mb-7">{t("lp3")}</p>
-                        </div>
-                    </div>
-
-
-                    <p className="w-full mb-7 md:mb-0 md:mt-3">{t("p4")}</p>
                 </div>
             </div>
 
@@ -142,7 +127,7 @@ export default function Pages() {
                         </div>
                         <div className="flex justify-start items-start text-[15px] font-nexa text-justify w-full h-full 
                               md:text-[13px] md:items-start lg:items-center lg:text-[15px] px-7 lg:px-8 2xl:pb-16">
-                            <p>{t("surf")}</p>
+
                         </div>
                     </div>
                 </div>

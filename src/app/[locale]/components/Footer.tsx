@@ -84,7 +84,7 @@ export const Footer = () => {
                             <MdOutlineEmail className="w-4 h-4 text-bluelight mr-2" />INFO@WAVESEG.TECH
                         </a>
                     </div>
-                    <li className="cursor-pointer list-none text-white font-semibold font-conthrax text-center text-[12px]"
+                    <li className="cursor-pointer list-none text-white font-semibold font-conthrax text-center text-[12px] md:mt-4"
                                     onClick={() =>
                                         openModal(
                                             p('p1-name-1'),

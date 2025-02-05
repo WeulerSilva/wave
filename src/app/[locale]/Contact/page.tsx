@@ -5,19 +5,24 @@ import { EmailForm } from "../components/EmailForm";
 
 
 export default function Pages() {
-    const t = useTranslations('products');
-    
+    const t = useTranslations('contact');
+
 
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
+            <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
+                                text-justify md:pl-0  md:w-[90%]'>
+                <p className="mb-7">{t("p-1")}</p>
+                <p>{t("p-2")}</p>
+            </div>
             <div className="w-full mt-10 flex justify-center flex-col items-center">
-                <EmailContact/>
-                
+                <EmailContact />
+
             </div>
 
             <div className="w-full mt-10 flex justify-center flex-col items-center">
-                <EmailForm/>
-                
+                <EmailForm />
+
             </div>
         </section>
     )

@@ -17,15 +17,11 @@ export default function Pages() {
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
                                 text-justify md:pl-0 md:space-x-10 md:w-[90%] md:flex-row'>
-                    <div className="w-full mb-7 md:mb-0 md:w-[50%]">
+                    <div className="w-full mb-7 md:mb-0">
                         <p className="mb-7">{t("p1")}</p>
                         <p>{t("p2")}</p>
                     </div>
 
-                    <div className="w-full md:w-[50%]">
-                        <p className="mb-7">{t("p3")}</p>
-                        <p>{t("p4")}</p>
-                    </div>
                 </div>
             </div>
 
@@ -33,18 +29,9 @@ export default function Pages() {
                 <BlueDiv completBlue firstText={t("h2")} textSize="text-[14px] lg:text-[16px]" aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
-                                text-justify md:pl-0 md:space-x-10 md:w-[90%] md:flex-row'>
-                    <div className="w-full md:w-[50%]">
-                        <TitleParagraph h1={t('m-h-1')} p={t('m-p-1')} />
-                        <TitleParagraph h1={t('m-h-2')} p={t('m-p-2')} />
-                        <TitleParagraph h1={t('m-h-3')} p={t('m-p-3')} />
-                    </div>
-
-                    <div className="w-full md:w-[50%]">
-                        <TitleParagraph h1={t('m-h-4')} p={t('m-p-4')} />
-                        <TitleParagraph h1={t('m-h-5')} p={t('m-p-5')} />
-                        <TitleParagraph h1={t('m-h-6')} p={t('m-p-6')} />
-                    </div>
+                                text-justify md:pl-0  md:w-[90%]'>
+                    <p className="mb-7">{t("p-1")}</p>
+                    <p>{t("p-2")}</p>
                 </div>
             </div>
         </section>
