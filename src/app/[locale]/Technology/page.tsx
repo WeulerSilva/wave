@@ -12,12 +12,12 @@ export default function Pages() {
             <div className="w-full flex justify-center flex-col items-center">
                 <div className="w-full h-[217px] bg-onda-tech bg-cover bg-[-100px] md:bg-[-10px] 2xl:bg-[-4px]">
                     <div className="w-full h-[96%] flex justify-end items-end md:h-[92%] lg:h-[88%]">
-                        <h1 className="font-beyonders text-white text-2xl  md:text-4xl lg:text-5xl lg:pr-[107px] xl:text-[51px]"
+                        <h1 className="font-beyonders text-white text-2xl md:text-4xl lg:text-5xl lg:pr-[107px] xl:text-[51px]"
                         >{t("img-text")}</h1>
                     </div>
                 </div>
 
-                <BlueDiv high highSize="h-[71px]" textSize="text-[11px] md:text-[14px]" completBlue firstText={t("h1")} aboutStyle='hidden' />
+                <BlueDiv high highSize="h-[71px]" textSize="text-[10px] mr-6 md:mr-0 md:text-[14px]" completBlue firstText={t("h1")} aboutStyle='hidden' />
 
                 <div className='w-full mt-7 px-6 flex justify-between items-start flex-col text-[15px] font-nexa 
                                 text-justify md:pl-0 md:px-0 md:w-[90%]'>

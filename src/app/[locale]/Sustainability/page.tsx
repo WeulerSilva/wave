@@ -26,24 +26,24 @@ export default function Pages() {
                         <LiDiv text={t("l-3")} />
                         <LiDiv text={t("l-4")} />
 
-                        <p className="mb-7">{t("p-2")}</p>
+                        <p className="md:mb-7">{t("p-2")}</p>
                         
                     </div>
 
                 </div>
             </div>
 
-            <div className="w-full mt-5 flex justify-center flex-col items-center relative">
+            <div className="w-full flex justify-center flex-col items-center relative md:mt-5">
                 <div className="w-full h-full bg-[#fafcfd] absolute"></div>
 
-                <div className='w-full h-[505px] relative md:w-[85%] md:h-full'>
+                <div className='w-full h-[370px] relative md:w-[85%] md:h-full'>
 
                     <div className="w-[165px] h-[150px] bg-gotinha bg-contain bg-no-repeat bg-center absolute bottom-0 
                          right-0 md:w-[265px] md:h-[250px] xl:w-[330px] xl:h-full md:right-[-30px]"></div>
 
                     <div className="w-full h-full flex justify-start items-center flex-col text-center px-4
                              md:px-0 md:text-left md:items-start md:w-[65%] lg:w-[70%] xl:w-[60%]">
-                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px] mt-7">{t("p-3")}</li>
+                        <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px] md:mt-7">{t("p-3")}</li>
                         <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("p-4")}</p>
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>
                         <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("p-5")}</p>
