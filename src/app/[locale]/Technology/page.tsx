@@ -31,7 +31,7 @@ export default function Pages() {
                     <LiDiv text={t("li-5")} />
                     <LiDiv text={t("li-6")} />
 
-                    <p className="mb-7 italic">&quot;{t("p-3")}&quot;</p>
+                    <p className="mb-7 font-serif italic">&quot;{t("p-3")}&quot;</p>
                     <p className="mb-7">{t("p-4")}</p>
 
                 </div>

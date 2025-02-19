@@ -36,7 +36,7 @@ export default function Pages() {
                             <span className="">{t("p4-4")}</span>
                         </p>
                         <p className="mt-7 font-bold">{t('p5')}</p>
-                        <p>{t("p6")}</p>
+                        <p className="font-serif italic">&quot;{t("p6")}&quot;</p>
                         <p className="font-bold">{t("p7")}</p>
                     </div>
                 </div>

@@ -10,12 +10,12 @@ export default function Pages() {
 
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
-            <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[15px] font-nexa 
+            <div className='w-full mt-4 px-6 my-1 flex justify-between items-start flex-col text-[15px] font-nexa 
                                 text-justify md:pl-0  md:w-[90%]'>
-                <p className="mb-7">{t("p-1")}</p>
+                <p className="mb-2">{t("p-1")}</p>
                 <p>{t("p-2")}</p>
             </div>
-            <div className="w-full mt-10 flex justify-center flex-col items-center">
+            <div className="w-full mt-4 flex justify-center flex-col items-center">
                 <EmailContact />
 
             </div>

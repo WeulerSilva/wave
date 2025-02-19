@@ -31,7 +31,7 @@ const config: Config = {
         "about-3": "url('/images/about-3.webp')",
         "about-4": "url('/images/about-4.webp')",
         "seg-logo": "url('/images/seg-logo.webp')",
-        "prancha-mar": "url('/images/prancha-mar.webp')",
+        "prancha-mar": "url('/images/sonho.jpg')",
         "onda-tech": "url('/images/onda-tech.webp')",
         "media-link": "url('https://wavepoolmag.com/wp-content/themes/yoo_master2_wp/images/menu-icon.png')",
         "youtube-link": "url('https://cdn.pixabay.com/photo/2021/06/25/04/20/youtube-6362801_640.png')",

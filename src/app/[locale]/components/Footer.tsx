@@ -67,7 +67,7 @@ export const Footer = () => {
                     <div className="flex justify-between items-center flex-col md:flex-row md:space-x-4 xl:space-x-0">
                         <div className='flex justify-between items-center space-x-4 pt-4 md:pt-0 md:space-x-3'>
                             <a className='w-7 h-7 rounded-full bg-white flex justify-center items-center cursor-pointer'
-                                href="https://www.instagram.com/wave.seg/"
+                                href="https://www.instagram.com/waveseg.oficial/"
                                 target="_blank"
                                 title="Instagram">
                                 <FaInstagram className="w-4 h-4 text-black" />

@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import { LiDiv } from "../components/LiDiv";
 
 export default function Pages() {
     const t = useTranslations('sustainability');
@@ -17,7 +16,7 @@ export default function Pages() {
             <div className="w-full flex justify-center flex-col items-center">
 
                 <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
-                                text-justify md:pl-0 md:space-x-10 md:w-[85%]'>
+                                md:flex-row text-justify md:pl-0 md:space-x-10 md:w-[85%]'>
                     <div className="w-full mb-7 md:mb-0">
                         <p className="mb-7">{t("p-1")} <span className="font-bold">{t("p-1-1")}</span></p>
 
@@ -46,6 +45,8 @@ export default function Pages() {
 
                     </div>
 
+                    <div className="w-[500px] h-[500px] bg-gotinha bg-contain bg-no-repeat xl:h-ful"></div>
+
                 </div>
             </div>
 
@@ -54,13 +55,13 @@ export default function Pages() {
 
                 <div className='w-full h-[370px] relative md:w-[85%] md:h-full'>
 
-                    <div className="w-[165px] h-[150px] bg-gotinha bg-contain bg-no-repeat bg-bottom absolute bottom-0 
+                    <div className="hidden w-[165px] h-[150px] bg-gotinha bg-contain bg-no-repeat bg-bottom absolute bottom-0 
                          right-0 md:w-[245px] md:h-[250px] xl:w-[330px] xl:h-full md:right-[-30px]"></div>
 
                     <div className="w-full h-full flex justify-start items-center flex-col text-center px-4
                              md:px-0 md:text-left md:items-start md:w-[65%] lg:w-[70%] xl:w-[60%]">
                         <li className="text-[14px] list-none font-nexa font-bold text-black md:text-[15px] md:mt-7">{t("p-3")}</li>
-                        <p className="text-[13px] font-nexa mb-7 italic md:text-[14px]">&quot;{t("p-4")}&quot;</p>
+                        <p className="text-[13px] font-serif mb-7 italic md:text-[14px]">&quot;{t("p-4")}&quot;</p>
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>
                         <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("p-5")}</p>
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>
