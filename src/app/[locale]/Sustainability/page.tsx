@@ -60,7 +60,7 @@ export default function Pages() {
                     <div className="w-full h-full flex justify-start items-center flex-col text-center px-4
                              md:px-0 md:text-left md:items-start md:w-[65%] lg:w-[70%] xl:w-[60%]">
                         <li className="text-[14px] list-none font-nexa font-bold text-black md:text-[15px] md:mt-7">{t("p-3")}</li>
-                        <p className="text-[13px] font-nexa mb-7 italic md:text-[14px]">"{t("p-4")}"</p>
+                        <p className="text-[13px] font-nexa mb-7 italic md:text-[14px]">&quot;{t("p-4")}&quot;</p>
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>
                         <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("p-5")}</p>
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>

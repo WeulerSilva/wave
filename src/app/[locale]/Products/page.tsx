@@ -107,7 +107,7 @@ export default function Pages() {
 
                 <div className='flex w-full mt-7 px-6 my-4 justify-between items-start flex-col text-[14px] font-nexa 
                                 text-black text-justify md:pl-0 md:w-[85%] '>
-                    <p className="mb-7 italic">"{t("p-1")}"</p>
+                    <p className="mb-7 italic">&quot;{t("p-1")}&quot;</p>
                     <p>{t("p-2")}</p>
 
                 </div>
