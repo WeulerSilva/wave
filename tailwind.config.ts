@@ -43,7 +43,7 @@ const config: Config = {
         "planta-1": "url('/images/pisc-64.png')",
         "planta-2": "url('/images/pisc-32.png')",
         "gota": "url('/images/gota2.webp')",
-        "gotinha": "url('/images/gotinha1.webp')",
+        "gotinha": "url('https://www.lanacion.com.ar/resizer/v2/alguna-vez-sonaste-con-olas-gigantes-este-es-su-7VIW63OIBNDORJYFXKEEAZXOFM.jpg?auth=45f17e51757ae94c512966ce523b9596740a16e696f97c33980c991a3ccb8c87&width=880&height=586&quality=70&smart=true')",
         "mar-blog": "url('/images/mar-blog.webp')",
         "p-1": "url('/images/p-1.webp')",
         "p-2": "url('/images/p-2.webp')",

@@ -60,10 +60,10 @@ export default function HomePage() {
               {t('video-p')}
             </p>
           </div>
-
-          <div className='w-full h-full flex justify-center mt-10 md:mt-0 md:justify-end'>
+                    {/*Video que sera substituido  https://cdn.pixabay.com/video/2023/09/30/182970-869947284_tiny.mp4 */}
+          <div className='w-full h-full hidden justify-center mt-10 md:mt-0 md:justify-end md:flex'>
             <video className="w-full h-full object-cover border-white hover:border-[1px] md:rounded-2xl md:w-[90%] xl:w-full xl:h-[250px]"
-              src="https://cdn.pixabay.com/video/2023/09/30/182970-869947284_tiny.mp4"
+              src="" 
               loop
               autoPlay
               muted
@@ -102,7 +102,7 @@ export default function HomePage() {
         </div>
       </div>
           */}
-      <section className='w-screen bg-bluedark flex justify-center'>
+      <section className='w-screen bg-bluedark hidden justify-center'>
         <div className='w-[90%] flex flex-col justify-center items-center py-16 lg:flex-row lg:justify-between'>
           <div className='flex justify-start items-center text-center flex-col h-full w-[80%] mb-12 md:w-[50%] lg:mb-0 lg:w-[25%]'>
             <AboutSpan link='/Technology' style='bg-bluelight text-bluedark' />
@@ -129,7 +129,7 @@ export default function HomePage() {
       <section className='w-screen flex flex-col justify-center items-center'>
         <BlueDiv textSize='text-[9px] md:text-[14px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0 md:text-[10px]' link='/Sustainability' />
 
-        <div className='w-full h-[200px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[240px] xl:space-x-16 xl:h-[100px] 2xl:space-x-[100px]'>
+        <div className='w-full h-[200px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[80px] xl:space-x-16 xl:h-[65px] 2xl:space-x-[100px]'>
           <div className='w-full'>
             <p className='text-[15px] text-bluedark font-nexa pl-6 pr-6 text-justify mb-4 md:pl-0 md:mb-0 md:pr-0 lg:pt-5'>
               {t("r-s-p")}

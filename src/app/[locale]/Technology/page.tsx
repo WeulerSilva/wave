@@ -31,7 +31,7 @@ export default function Pages() {
                     <LiDiv text={t("li-5")} />
                     <LiDiv text={t("li-6")} />
 
-                    <p className="mb-7">{t("p-3")}</p>
+                    <p className="mb-7 italic">"{t("p-3")}"</p>
                     <p className="mb-7">{t("p-4")}</p>
 
                 </div>
@@ -53,7 +53,7 @@ export default function Pages() {
                         <span className="font-conthrax text-[11px] text-bluedark md:text-[13px]">{t("h2-span-3")}</span>
                     </p>
 
-                    <p className="font-nexa text-[12px] text-black mb-4 md:text-[15px]">
+                    <p className=" font-nexa text-[12px] text-black mb-4 md:text-[15px]">
                         {t("h2-p3")}
                         <span className="font-conthrax text-[11px] text-bluedark md:text-[13px]">{t("h2-span-4")}</span>
                         {t("h2-p4")}
@@ -78,7 +78,7 @@ export default function Pages() {
                 </div>
             </div>
 
-            <div className="w-full flex justify-center flex-col items-center">
+            <div className="w-full hidden justify-center flex-col items-center">
                 <BlueDiv textSize="" completBlue firstText={t("h3")} aboutStyle="hidden" />
 
                 <div className='w-full h-full flex justify-center items-center bg-gray-50'>

@@ -8,7 +8,7 @@ export default function Pages() {
 
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
-            <div className="w-full mt-10 flex justify-center flex-col items-center">
+            <div className="hidden w-full mt-10 justify-center flex-col items-center">
                 <BlueDivCenter color="bg-bluelight uppercase" textSize="text-[14px] lg:text-[16px]" completBlue firstText={t("h1")} aboutStyle="hidden" />
 
                 <div className='text-bluedark w-full h-full flex justify-center items-center flex-col text-[15px] font-nexa 
@@ -107,27 +107,24 @@ export default function Pages() {
 
                 <div className='flex w-full mt-7 px-6 my-4 justify-between items-start flex-col text-[14px] font-nexa 
                                 text-black text-justify md:pl-0 md:w-[85%] '>
-                    <p className="mb-7">{t("p-1")}</p>
+                    <p className="mb-7 italic">"{t("p-1")}"</p>
                     <p>{t("p-2")}</p>
 
                 </div>
             </div>
 
             <div className="w-full mt-5 flex justify-center flex-col items-center bg-sky bg-cover bg-center">
-                <BlueDiv textSize="md:pl-4 lg:pl-6 xl:pl-8" firstText="Surf Place" aboutStyle='hidden' />
+                <BlueDivCenter color="bg-bluelight uppercase" textSize="md:pl-4 lg:pl-6 xl:pl-8" firstText="Surf Place" aboutStyle='hidden' />
 
-                <div className='w-full h-[435px] relative md:w-[85%] md:h-[230px]'>
-                    <div className="w-[165px] h-[150px] bg-coqueiro bg-cover bg-center absolute bottom-0 
-                         right-0 md:w-[265px] md:h-[250px] xl:w-[325px] xl:h-[300px] md:right-[-50px] 2xl:right-6"></div>
+                <div className='w-full h-[270px] flex flex-col-reverse relative justify-center md:flex-row-reverse md:w-[85%] md:h-[230px]'>
+                    <div className="w-full h-full">
+                        <div className="w-[165px] h-[150px] bg-coqueiro bg-cover bg-center absolute bottom-0 
+                         right-0 md:w-[265px] md:h-[250px] xl:w-[325px] xl:h-[300px] md:left-[70%]"></div>
+                    </div>
 
-                    <div className="w-full h-full flex justify-start items-center flex-col 
-                            md:w-[65%] lg:w-[70%] lg:flex-row xl:w-[60%]">
+                    <div className="w-full h-full flex justify-center items-center flex-col">
                         <div className="flex justify-center items-center h-[50%] md:h-full">
                             <div className="w-[93px] h-[90px] bg-surf bg-center bg-cover md:w-[73px] md:h-[70px] lg:w-[145px] lg:h-[140px]"></div>
-                        </div>
-                        <div className="flex justify-start items-start text-[15px] font-nexa text-justify w-full h-full 
-                              md:text-[13px] md:items-start lg:items-center lg:text-[15px] px-7 lg:px-8 2xl:pb-16">
-
                         </div>
                     </div>
                 </div>

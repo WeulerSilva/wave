@@ -25,11 +25,16 @@ export default function Pages() {
                     <div className="w-full mb-7 md:mb-0 md:w-[50%]">
                         <p className="mb-7">{t("p1")}</p>
                         <p className="mb-7">{t("p2")}</p>
-                        <p className="mb-7">{t("p3")}</p>
+                        <p className="mb-7">{t("p3")} <p className="font-bold">{t("p3-1")}</p></p>
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <p>{t("p4")}</p>
+                        <p>{t("p4")}
+                            <span className="font-bold">{t("p4-1")}</span>
+                            <span className="">{t("p4-2")}</span>
+                            <span className="font-bold">{t("p4-3")}</span>
+                            <span className="">{t("p4-4")}</span>
+                        </p>
                         <p className="mt-7 font-bold">{t('p5')}</p>
                         <p>{t("p6")}</p>
                         <p className="font-bold">{t("p7")}</p>
