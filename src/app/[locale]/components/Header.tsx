@@ -42,7 +42,7 @@ export default function Header() {
                 />
 
                 <div className="hidden md:flex md:relative">
-                    <ul className="flex space-x-3 font-[MontSerrat]  uppercase text-[8.5px] md:text-[9px] lg:space-x-3 xl:space-x-8 2xl:space-x-14">
+                    <ul className="flex space-x-3 font-[MontSerrat] uppercase text-[8.5px] md:text-[9px] md:space-x-6 xl:space-x-8 2xl:space-x-14">
                         {menuItems.map((item) => {
                             // Verifica se o item é a página atual
                             const isActive =
