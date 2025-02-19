@@ -15,8 +15,8 @@ export default function Pages() {
 
             <div className="w-full flex justify-center flex-col items-center">
 
-                <div className='w-full mt-7 px-6 my-4 flex justify-between items-start flex-col text-[14px] font-nexa 
-                                md:flex-row text-justify md:pl-0 md:space-x-10 md:w-[85%]'>
+                <div className='w-full mt-7 px-6 my-4 flex justify-between items-center flex-col text-[14px] font-nexa 
+                                 text-justify md:items-start md:flex-row md:pl-0 md:px-0 md:space-x-10 md:w-[85%]'>
                     <div className="w-full mb-7 md:mb-0">
                         <p className="mb-7">{t("p-1")} <span className="font-bold">{t("p-1-1")}</span></p>
 
@@ -41,11 +41,11 @@ export default function Pages() {
                             {t("l-4")}<span className="text-black font-nexa">{t("l-4-1")}</span>
                         </li>
 
-                        <p className="md:mb-7">{t("p-2")} <span className="font-bold">{t("p-2-1")}</span><span>{t("p-2-2")}</span></p>
+                        <p className="md:mb-3">{t("p-2")} <span className="font-bold">{t("p-2-1")}</span><span>{t("p-2-2")}</span></p>
 
                     </div>
 
-                    <div className="w-[500px] h-[500px] bg-gotinha bg-contain bg-no-repeat xl:h-ful"></div>
+                    <div className="w-[300px] h-[250px] bg-gotinha bg-contain bg-no-repeat md:w-[500px]"></div>
 
                 </div>
             </div>
@@ -60,7 +60,7 @@ export default function Pages() {
 
                     <div className="w-full h-full flex justify-start items-center flex-col text-center px-4
                              md:px-0 md:text-left md:items-start md:w-[65%] lg:w-[70%] xl:w-[60%]">
-                        <li className="text-[14px] list-none font-nexa font-bold text-black md:text-[15px] md:mt-7">{t("p-3")}</li>
+                        <li className="text-[14px] list-none font-nexa font-bold text-black md:text-[15px] md:mt-2">{t("p-3")}</li>
                         <p className="text-[13px] font-serif mb-7 italic md:text-[14px]">&quot;{t("p-4")}&quot;</p>
                         <li className="text-[14px] list-none font-conthrax text-bluedark md:text-[15px]"></li>
                         <p className="text-[13px] font-nexa mb-7 md:text-[14px]">{t("p-5")}</p>

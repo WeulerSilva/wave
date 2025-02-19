@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import { BlueDiv } from "../components/BlueDiv";
 import { BlueDivCenter } from "../components/BlueDivCenter";
 import { ProductDiv } from "../components/ProductDiv";
 
@@ -77,16 +76,18 @@ export default function Pages() {
 
                 <div className='w-full mt-7 px-6 my-4 mb-9 md:pl-0 md:w-[90%] md:px-0'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center lg:grid-cols-3">
-                        <ProductDiv img="bg-p-1" firstText={t("div-1")} />
-                        <ProductDiv img="bg-p-2" firstText={t("div-2")} />
-                        <ProductDiv img="bg-p-3" firstText={t("div-3")} />
-                        <ProductDiv img="bg-p-4" firstText={t("div-4")} />
-                        <ProductDiv img="bg-p-5" firstText={t("div-5")} />
-                        <ProductDiv img="bg-p-6" firstText={t("div-6")} />
-                        <ProductDiv img="bg-p-7" firstText={t("div-7")} />
-                        <ProductDiv img="bg-p-8" firstText={t("div-8")} />
-                        <ProductDiv img="bg-p-9" firstText={t("div-9")} />
-                        <ProductDiv img="bg-p-10" firstText={t("div-10")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-1" firstText={t("div-1")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-2" firstText={t("div-2")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-3" firstText={t("div-3")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-4" firstText={t("div-4")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-5" firstText={t("div-5")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-6" firstText={t("div-6")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-7" firstText={t("div-7")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-8" firstText={t("div-8")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-9" firstText={t("div-9")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-10" firstText={t("div-10")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-11" firstText={t("div-11")} />
+                        <ProductDiv text="md:text-[10px]" img="bg-p-12" firstText={t("div-12")} />
                     </div>
                 </div>
             </div>
