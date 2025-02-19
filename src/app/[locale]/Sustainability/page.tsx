@@ -53,7 +53,7 @@ export default function Pages() {
             <div className="w-full flex justify-center flex-col items-center relative md:mt-5">
                 <div className="w-full h-full absolute"></div>
 
-                <div className='w-full h-[370px] relative md:w-[85%] md:h-full'>
+                <div className='w-full h-[220px] relative md:w-[85%] md:h-full'>
 
                     <div className="hidden w-[165px] h-[150px] bg-gotinha bg-contain bg-no-repeat bg-bottom absolute bottom-0 
                          right-0 md:w-[245px] md:h-[250px] xl:w-[330px] xl:h-full md:right-[-30px]"></div>

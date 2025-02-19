@@ -9,7 +9,7 @@ export default function Pages() {
     return (
         <section className='w-screen flex flex-col justify-center items-center'>
             <div className='w-screen h-[250px] flex justify-center'>
-                <div className='w-full h-full flex justify-center items-start bg-prancha-mar bg-cover bg-center md:flex-row 
+                <div className='w-full h-full flex justify-center items-start bg-prancha-mar bg-cover bg-right md:flex-row 
                     md:bg-center'>
                     <div className="w-full h-[51%] flex justify-center items-end md:h-[50%]">
                         <h1 className="font-beyonders text-white text-lg md:text-4xl xl:text-4xl">{t("img-text")}</h1>

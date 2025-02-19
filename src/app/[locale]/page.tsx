@@ -160,10 +160,10 @@ export default function HomePage() {
 */}
       <section className='w-screen flex flex-col justify-center items-center relative mt-4'>
         <div className='w-full h-[56px] bg-[linear-gradient(to_right,#36A9E1_60%,white_95%)]  flex justify-center items-center'>
-          <div className='w-full flex justify-start items-center md:w-[90%]'>
+          <div className='w-full flex justify-between items-center md:justify-start md:w-[90%]'>
             <h4 className='text-[12px] font-semibold text-white pl-6 uppercase font-conthrax md:pl-0 md:text-md lg:text-xl'>{t("follow")}</h4>
             <a href="https://www.instagram.com/waveseg.oficial/" target='_blank'>
-              <AboutSpan link='' style={`bg-bluedark text-white ml-6`} text='@waveseg.oficial' />
+              <AboutSpan link='' style={`bg-bluedark text-white mr-3 md:ml-6`} text='@waveseg.oficial' />
             </a>
 
           </div>
