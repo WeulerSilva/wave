@@ -51,7 +51,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className='w-screen h-full flex justify-start items-center flex-col relative mt-14 mb-10 md:h-[300px] lg:h-[250px]'>
+      <section className='hidden w-screen h-full justify-start items-center flex-col relative mt-14 mb-10 md:h-[300px] lg:h-[250px]'>
         <div className='w-screen h-[56px] bg-[linear-gradient(to_right,#36A9E1_40%,white_55%)] absolute top-0 z-10'></div>
 
         <div className='w-full flex justify-center items-start flex-col md:w-[90%] md:flex-row z-20 xl:space-x-96 2xl:space-x-[500px]'>
@@ -132,7 +132,7 @@ export default function HomePage() {
 
       </section>
 
-      <section className='w-screen flex flex-col justify-center items-center'>
+      <section className='mt-10 w-screen flex flex-col justify-center items-center'>
         <BlueDiv textSize='text-[9px] md:text-[14px]' firstText={t('r-s-c')} aboutStyle='text-[8px] px-1 py-1 mr-6 md:mr-0 md:text-[10px]' link='/Sustainability' />
 
         <div className='w-full h-[200px] flex justify-between items-start flex-col my-5 md:space-x-8 md:w-[90%] md:h-[80px] xl:space-x-16 xl:h-[65px] 2xl:space-x-[100px]'>
