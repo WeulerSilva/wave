@@ -12,7 +12,7 @@ export default function Pages() {
                 <div className='w-full h-full flex justify-center items-start bg-prancha-mar bg-cover bg-center md:flex-row 
                     md:bg-center'>
                     <div className="w-full h-[51%] flex justify-center items-end md:h-[50%]">
-                        <h1 className="font-beyonders text-white text-lg md:text-4xl lg:text-5xl xl:text-6xl">{t("img-text")}</h1>
+                        <h1 className="font-beyonders text-white text-lg md:text-4xl xl:text-4xl">{t("img-text")}</h1>
                     </div>
                 </div>
             </div>
