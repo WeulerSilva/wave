@@ -1,11 +1,16 @@
+"use client"
+
 import { useTranslations } from 'next-intl';
 import { AboutSpan } from './components/AboutSpan';
 import { BlueDiv } from './components/BlueDiv';
+import { usePathname} from 'next/navigation';
 
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
   const h = useTranslations('header');
+
+  const pathname = usePathname();
 
   return (
     <>
@@ -20,7 +25,8 @@ export default function HomePage() {
             playsInline />
 
           <video className="hidden w-screen h-[94%] object-cover md:h-full md:block"
-            src="/images/onda.mp4"
+            src={pathname === '/pt' ? "/images/onda-pt.mp4" : pathname === "/es" ? "/images/onda-es.mp4" : 
+              pathname === "/en" ? "/images/onda-en.mp4" : ""}
             loop
             autoPlay
             muted
